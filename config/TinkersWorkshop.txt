@@ -98,6 +98,7 @@ block {
     I:"Stone Torch"=1590
     I:"Tool Forge"=1591
     I:"Wood Tool Station"=1592
+    I:"Wooden Rail"=1615
     I:"Wool Slab 1"=1609
     I:"Wool Slab 2"=1610
 }
@@ -352,7 +353,7 @@ worldgen {
     I:"Iron Surface Rarity"=400
     I:"Nether Ores Density"=8
     I:"Silver Bush Density"=1
-    I:"Slime Island Rarity"=450
+    I:"Slime Island Rarity"=1450
     I:"Tin Bush Density"=2
     I:"Tin Bush Max Y"=40
     I:"Tin Bush Min Y"=0
