@@ -38,6 +38,7 @@ block {
     I:"Crafting Station"=1594
     I:"Drying Rack"=1546
     I:"Essence Extractor"=1601
+    I:"Furnace Slab"=1617
     I:"Glass Pane"=1547
     I:"Held Item Block"=1548
     I:"Jungle Barricade"=1595
@@ -80,8 +81,11 @@ block {
     I:"Ores Slag"=1581
     I:Punji=1596
     I:"Redstone Machines"=1582
+    I:SDX=1616
     I:"Seared Slab"=1583
     I:"Seared Table"=1584
+    I:"Signal Bus"=1618
+    I:"Signal Terminal"=1619
     I:"Slime Channel"=1611
     I:"Slime Grass"=1605
     I:"Slime Grass Leaves"=1606
@@ -138,9 +142,17 @@ block {
 ####################
 
 dimblacklist {
+    # True: slime islands wont generate in any ages other than overworld(if enabled); False: will generate in all non-blackisted ages
     B:GenerateSlimeIslandInDim0Only=false
+
+    # Add dimension ID's to prevent slime islands from generating in them
     I:SlimeIslandDimBlacklist <
      >
+
+    # Generate slime islands in flat worlds
+    B:genIslandsFlat=false
+
+    # True: slime islands generate in overworld; False they do not generate
     B:slimeIslGenDim0=true
 }
 
@@ -170,6 +182,9 @@ equipables {
 
 experimental {
     B:"Items can be thrown into smelteries"=true
+
+    # Warning: Very buggy
+    B:"Use new adaptive Smeltery code"=false
 }
 
 
@@ -179,6 +194,16 @@ experimental {
 
 general {
     I:"Sea level"=64
+}
+
+
+####################
+# logic
+####################
+
+logic {
+    I:LengthWire=5746
+    I:SpoolWire=5747
 }
 
 
