@@ -12,12 +12,14 @@ crash-reports/
 hats/
 icon.png
 IDMap*.txt
+journeyMap/
 lib/
 libraries/
 miscperipherals/
 ops.txt
 resources/
 saves/
+screenshots/
 server.properties
 stats/
 white-list.txt
