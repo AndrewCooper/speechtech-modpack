@@ -1,0 +1,53 @@
+# This is the main configuration file for MCPC+.
+# 
+# If you need help with the configuration or have any questions related to MCPC,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #mcportcentral @ irc.esper.net ( http://webchat.esper.net/?channel=mcportcentral )
+# Forums: http://http://www.mcportcentral.co.za/
+
+config-version: 1
+settings:
+  dump-materials: false
+  load-chunk-on-request: false
+logging:
+  disabled-warnings: false
+  world-leak-debug: false
+  connection: false
+  warn-place-no-tileentity: true
+world-settings:
+  default:
+    infinite-water-source: true
+    flowing-lava-decay: false
+    worldgen-MagicBees-WorldGeneratorHandler: true
+    worldgen-factorization-: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-BinnieCore-ModuleGeneration: true
+    worldgen-Natura-BaseCloudWorldgen: true
+    worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
+    worldgen-Natura-BaseTreeWorldgen: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-BattleTowers-WorldGenHandler: true
+    worldgen-Forestry-WorldGenerator: true
+    worldgen-Mekanism-OreHandler: true
+    worldgen-Natura-BaseCropWorldgen: true
+fake-players:
+  do-login: false
+plugin-settings:
+  default:
+    remap-plugin-file: false
+world-environment-settings:
+  normal:
+    keep-world-loaded: true
+  nether:
+    keep-world-loaded: true
+  the_end:
+    keep-world-loaded: false
+  promised:
+    keep-world-loaded: false
+  wyvernend:
+    keep-world-loaded: true
+  underdark:
+    keep-world-loaded: false
+  twilightforest:
+    keep-world-loaded: false
