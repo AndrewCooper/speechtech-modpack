@@ -1,6 +1,15 @@
 # Configuration file
 
 ####################
+# achievement properties
+####################
+
+"achievement properties" {
+    B:AchievementsEnabled=true
+}
+
+
+####################
 # alpha behavior
 ####################
 
@@ -40,6 +49,8 @@ block {
     I:"Essence Extractor"=1601
     I:"Furnace Slab"=1617
     I:"Glass Pane"=1547
+    I:"Glue Block"=1620
+    I:"Glue Fluid Block"=1621
     I:"Held Item Block"=1548
     I:"Jungle Barricade"=1595
     I:Landmine=1549
@@ -181,6 +192,7 @@ equipables {
 ####################
 
 experimental {
+    B:"Allow horses to be melted down for glue"=true
     B:"Items can be thrown into smelteries"=true
 
     # Warning: Very buggy
@@ -248,6 +260,31 @@ looks {
     I:"Tool Rod"=5688
     I:"Tool Shard"=5689
     I:"Wood Pattern"=5690
+}
+
+
+####################
+# smeltery output modification
+####################
+
+"smeltery output modification" {
+    # Number of ingots returned from smelting Aluminum Brass in the smeltery
+    I:"Aluminum Brass ingot return"=4
+
+    # Number of ingots returned from smelting Alumite in the smeltery
+    I:"Alumite ingot return"=3
+
+    # Number of ingots returned from smelting Bronze in the smeltery
+    I:"Bronze ingot return"=3
+
+    # Number of ingots returned from smelting ores in the smeltery
+    I:"Ingots per ore"=2
+
+    # Number of ingots returned from smelting Manyullyn in the smeltery
+    I:"Manyullyn ingot return"=1
+
+    # Number of ingots returned from smelting Pig Iron in the smeltery
+    I:"Pig Iron ingot return"=1
 }
 
 
