@@ -38,6 +38,7 @@ block {
     I:"Air Tank"=1613
     I:Barricade=1542
     I:"Birch Barricade"=1593
+    I:"Blood Channel"=1622
     I:"Casting Channel"=1598
     I:"Clear Glass"=1543
     I:"Clear Stained Glass"=1544
@@ -85,6 +86,9 @@ block {
     I:"Molten Tin"=1575
     I:"Multi Brick"=1576
     I:"Multi Brick Fancy"=1577
+    I:"Nether Lava Tank"=1623
+    I:"Nether Seared Block"=1624
+    I:"Nether Smeltery"=1625
     I:"Oak Barricade"=1469
     I:"Ore Berry One"=1578
     I:"Ore Berry Two"=1579
@@ -124,6 +128,7 @@ block {
 ####################
 
 "difficulty changes" {
+    B:"Allow creation of endstone"=true
     B:"Craft Stencil Tables"=true
     B:"Craft metals with Wood Patterns"=false
     B:"Craft vanilla metal blocks"=true
@@ -173,6 +178,10 @@ dimblacklist {
 ####################
 
 equipables {
+    I:Exo-Boots=5748
+    I:Exo-Chestpiece=5749
+    I:Exo-Goggles=5750
+    I:Exo-Legs=5751
     I:Gloves=5671
     I:"Heart Canister"=5672
     I:"Heavy Boots"=5673
@@ -206,6 +215,15 @@ experimental {
 
 general {
     I:"Sea level"=64
+}
+
+
+####################
+# logging
+####################
+
+logging {
+    B:"Disable tool build messages"=false
 }
 
 
