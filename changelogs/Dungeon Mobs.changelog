@@ -1,0 +1,250 @@
+v3.0.2
+Bugfix: Many.
++ Fixed various sound-related issues for many mobs.
++ Dungeon Mobs should continue to follow their spawn restrictions when Mob Spawner Controls is installed (in addition to the modifications from MSC).
++ Blade trap spawns should no longer be ridiculous.
++ Lizalfos should now spawn their twin when spawned from a shrieker.
++ Rakshasa magic missiles no longer cause crashes.
++ Beholder eye rays now work properly.
++ Rust monster occasional targeting issues resolved.
+Blade traps now have an upper bound on spawn height.
+
+v3.0.1
+Bugfix: Duplicate methods in rust monster render file removed.
+
+v3.0.0
+Update: Minecraft v1.6.4
+Bugfix: Trolls should now regenerate properly.
+
+v2.6.0 (FINAL RELEASE: Minecraft v1.5.2)
+New mob: thoqqua.
+Bugfix: Cave fishers now generate webs properly.
+Blade traps now have a spawn egg.
+Beholders should no longer take explosion damage from their own eye rays.
+
+v2.5.3
+Bugfix: Bad manticore, stop taking null pointers.
+
+v2.5.2
+Bugfix: Mob spawner issues have been resolved.
+Cockatrices now drop feathers.
+
+v2.5.1
+Added configuration file.
+
+v2.5.0
+New mob: blade trap.
+Bugfix: Destrachan targeting problems have (hopefully) been resolved.
+Hell hounds should now breathe fire more regularly.
+
+v2.4.0
+Update: Minecraft v1.5.2
+Bugfix: Some.
++ Rust monsters targeting problem has been hopefully resolved.
++ Lizalfos propensity for lag has been reduced.
++ Trolls should now regenerate properly.
++ All mob seek ranges are now based on difficulty level.
+
+v2.3.2 (FINAL RELEASE: Minecraft v1.5.1)
+Bugfix: Petrified entities should behave properly.
+Bugfix: Illithids should now properly interact with helmets.
+
+v2.3.1
+Hunter temporarily dummied out due to technical difficulties.
+Bugfix: The "exploding cockatrice" problem has been resolved.
+Bugfix: Permanent solution to "leaking worlds" found and implemented for lizalfos.
+
+v2.3.0
+New mob: manticore.
+Cave fisher web generation has hopefully been fixed.
+Cave fisher potential contribution to "leaking worlds" problem has been removed.
+
+v2.2.0
+Update: Minecraft v1.5.1
+
+v2.1.0 (FINAL RELEASE: Minecraft v1.5)
+New mob: hunter.
+Bugfix: Lizalfos should no longer cause excessive lag.
+Bugfix: Lizalfos should no longer make hurt sounds when falling.
+
+v2.0.1
+Bugfix: Rakshasa ranged attack range has been fixed.
+Bugfix: Destrachan ranged attack range has been fixed.
+Bugfix: Beholder eye rays no longer crash the game.
+
+v2.0.0
+Update: Minecraft v1.5
+Bugfix: Many.
++ Cockatrice hit box has been adjusted.
++ Cockatrice will no longer petrify players in creative.
++ Player statues should no longer have NBT issues when saving data.
++ Lizalfos no longer make fall sounds after falling.
++ Cave fisher no longer fishes for players in creative.
++ Umber hulk hit box has been adjusted.
++ Shrieker no longer causes damage.
+
+v1.11.3.Fc (FINAL RELEASE: Minecraft v1.4.6/v1.4.7)
+Bugfix: Cockatrices should stop being dumb.
+
+v1.11.3.Fb
+Bugfix: Lizalfos no longer causes leaked worlds.
+Bugfix: The "exploding cockatrice" problem has been resolved.
+
+v1.11.3.F
+Bugfix: Many.
++ Cockatrice hit box has been adjusted.
++ Cockatrice will no longer petrify players in creative.
++ Player statues should no longer have NBT issues when saving data.
++ Lizalfos no longer make fall sounds after falling.
++ Lizalfos should no longer cause excessive lag.
++ Cave fisher no longer fishes for players in creative.
++ Cave fisher web generation has hopefully been fixed.
++ Cave fisher potential contribution to "leaking worlds" problem has been removed.
++ Umber hulk hit box has been adjusted.
++ Shrieker no longer causes damage.
+
+v1.11.3
+Bugfix: Shriekers should no longer suffer entity creation problems related to entity IDs.
+
+v1.11.2
+Bugfix: Beholders should no longer spawn in inappropriate locations.
+Minor code maintenance in preparation for future expanded mod support.
+
+v1.11.1
+Bugfix: Statues should no longer move.
+Bugfix: Troll ghosts should no longer haunt your nightmares.
+Bugfix: Beholder block disintegration should function properly.
+Cockatrice have been added to potential mob spawner spawns.
+Cockatrice spawning depth has been adjusted.
+Cockatrice animations have been improved.
+Players will hear a "turn to stone" sound upon being petrified.
+
+v1.11.0
+New mob: cockatrice.
+Bugfix: Attempted to resolve problem of mobs not spawning in SMP.
+
+v1.10.2
+Bugfix: Rakshasa y u no work?
+Bugfix: Mob spawners y u no work?
+
+v1.10.1
+Bugfix: Another attempt at resolving concurrent modification issues with rakshasa.
+
+v1.10.0
+New mob: lizalfos.
+Mod Support: Highlands.
+Bugfix: Mobs attempting to spawn near mob spawners should no longer crash.
+Bugfix (?): Removed potential for rakshasa concurrent modification error.
+Beholder received minor graphical fix.
+
+v1.9.0
+New mob: rakshasa.
+Dungeon mobs should no longer be able to spawn near mob spawners not of their type.
+Illithids now save some data (but not domination data - still forthcoming).
+
+v1.8.2
+Bugfix: Destrachan sound waves should no longer collide with arrows.
+Bugfix: Beholder eye rays should no longer collide with arrows.
+Hell hounds will now spawn anywhere in the nether.
+Illithids will now socialize with each other.
+Beholders received an animation upgrade.
+
+v1.8.1
+Hell hounds will now save their data appropriately.
+Hell hound fire and smoke particle generation will occur regardless of fire placement (to show area of breath attack).
+Hell hound fire breath will now destroy water blocks.
+Hell hound sounds timed somewhat better.
+
+v1.8.0
+New mob: hell hound.
+Illithid domination behavior slightly modified and improved.
+Illithids rate of mind blasting is now dependent on game difficulty.
+Illithid animation now reflects "grappling."
+Shriekers can now spawn illithids.
+
+v1.7.0
+New mob: illithid.
+Mob spawners can now potentially spawn all dungeon mobs other than shriekers.
+Mob spawners for dungeon mobs will ignore the mobs height requirements for spawning.
+Cave fishers will spawn webs at their targets location (if they have one), rather than around them constantly.
+Trolls now have a "turn to stone" sound.
+Beholders should now face you when firing an eye ray.
+Shriekers will now spawn dungeon mobs of all types (other than themselves), regardless of height, but will still not spawn them on the surface.
+
+v1.6.1
+Bugfix: API implementation should now function properly.
+Destrachans animations have been updated.
+Destrachan harmonics attack has been tweaked.
+Cave fishers will now hunt bats.
+Beholder eye rays will have no effect on players in creative mode.
+Beholders will now attack targets that attack them.
+Umber hulks will not cause status effects to players in creative mode.
+Shriekers should deal no damage, and will be nonresponsive to players in creative mode.
+
+v1.6.0
+New mob: destrachan.
+Bugfix: ExtraBiomesXL support should now function properly.
+Bugfix: Cave fisher behavior was still a bit off, should be good now.
+
+v1.5.6
+Bugfix: Mod interfacing should no longer cause problems if you lack the mods being interfaced.
+Bugfix: Cave fishers now behave appropriately.
+
+v1.5.5
+Bugfix: Seriously, SMP should be fine now, kthx.
+
+v1.5.4
+Mod Support: Biomes O Plenty.
+
+v1.5.3
+Bugfix: SMP sound problems have been resolved.
+
+v1.5.2
+Mod Support: ExtraBiomesXL.
+
+v1.5.1
+Fixed potential issue in SMP regarding cave fishers.
+Cave fishers now save their data appropriately.
+
+v1.5.0
+New mob: cave fisher.
+Bugfix: Modified eye ray behavior to hopefully disable poor interaction with arrows and thrown entities.
+Beholders have had their rate of fire reduced.
+Beholders disenchant chance has been modified to take into account game difficulty.
+
+v1.4.0
+New mob: troll.
+Bugfix: Again, potential bugfix for issues in SMP.
+Beholders now have drops.
+Bigger mobs now have a separate step sound.
+
+v1.3.1
+Potentially fixed some potential problems involving sound in SMP.
+
+v1.3.0
+New mob: beholder.
+
+v1.2.2
+Hook horror shadow is now more reasonably sized.
+Hook horrors have more drops.
+Shriekers now die if the block under them is removed.
+Cleaned up entity registration code.
+
+v1.2.1
+Bugfix: Shriekers will no longer enter an infinite loop when attempting to spawn mobs.
+
+v1.2.0
+New mob: hook horror.
+Umber hulk now has drops.
+
+v1.1.0
+New mob: umber hulk.
+Rust monster model changed slightly.
+Rust monster is now animated.
+Shrieker spawn rate adjusted (lower).
+Shrieker now responds correctly to light.
+Shrieker mob spawns no longer spawn in walls and floors.
+Ghoul spawn rate adjusted (lower).
+
+v1.0.0
+Initial release.
