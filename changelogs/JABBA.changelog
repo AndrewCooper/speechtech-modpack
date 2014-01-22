@@ -1,0 +1,29 @@
+1.0.3
+
+In this small update, you will find the dolly handling more storages from Bibliocraft and BetterStorage.
+
+CHANGELOG
+[Feature] The dolly now supports BetterStorage chests, lockers and boxes. Armorstands will come later.
+[Feature] The dolly now supports Bibliocraft. It should work with all the storage blocks, beside the weapon display (might be added later).
+
+1.0.2
+
+Bugfix update and a new storage mod supported by the dolly.
+
+CHANGELOG
+[Fix] Issue #3 : Hoppers will not void barrels anymore
+[Fix] AE will not try to insert in an empty locked barrel anymore
+[Fix] IC2 orientation should be restored properly when using a dolly.
+[Fix] Shouldn't crash anymore when the amount string is null.
+[Feature] Dylan Miller's colored chests mod is now supported by dollies.
+
+1.0.1
+
+This update is a bit strange. It might seem like a normal bugfix, but in reality, it is a complete rewrite of how the barrels are handling their inventory.
+This should fix any weird behavior people have reported so far, including BC gates, TE pipes, Factorization routers and more.
+Barrels are now behaving like normal inventories for the outside world, but better :)
+
+All credits to this update go to Skyboy, for providing me the pointers and interfaces I needed to finally bring the barrels to their full potential.
+
+Now that it is done, I can finally move to implementing more fonctionnalities.
+
