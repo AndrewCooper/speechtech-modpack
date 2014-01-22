@@ -1,0 +1,1078 @@
+Changelog:
+Build 1.6.4-1.2.1.416:
+	Catcwe316: Updated version.txt and build.properties
+
+Build 1.6.4-1.2.0.415:
+	Adubbz: Fuckloads of work on updating blocks
+	Catcwe316: Finished christmas lights
+
+Build 1.6.4-1.2.0.413:
+	Catcwe316: Work on christmas lights
+
+Build 1.6.4-1.2.0.412:
+	Adubbz: Added the broken blocks to the repo for the sake of it
+	Adubbz: Readded logs
+	Adubbz: References to block IDs in constructors removed, removed old quicksand class, references to the BOP creative tab fixed
+	Adubbz: References to Icon and IconRegister changed
+	Adubbz: registerIcons() and getIcon() renamed
+	Adubbz: More renaming
+	1196377271:
+		Update zh_CN.lang
+		
+		Merry Christmas！
+	смирнов антон михайлович: Update ru_RU.lang
+
+Build 1.6.4-1.2.0.405:
+	Adubbz: Readded colorized saplings
+	Adubbz: Added festive lights to pine tree leaves... Damn you Forstride
+
+Build 1.6.4-1.2.0.403:
+	Adubbz: Readded the BOP Worldtype
+	Adubbz: Fixed the ash step sound, added clouds, changed the mud drop back to mud balls
+	Adubbz: Removed the config options for block and item IDs as they are no longer needed
+	Catcwe316: texture things
+
+Build 1.6.4-1.2.0.399:
+	Adubbz: Readded ash blocks, finished items (for the most part) and readied the biomes class
+	Vexatos: Update de_DE.lang
+
+Build 1.6.4-1.2.0.397:
+	Adubbz: Reenabled properties of mud since it actually works, it was just a bug
+	Adubbz: Repackaging
+	Adubbz: Fixed an issue with quicksand
+	king: Fix treecap integration
+
+Build 1.6.4-1.2.0.393:
+	Adubbz: Toying with more things
+	Adubbz: Reduced files to what works, let's make this a proper rewrite!
+	Adubbz: Removed old apis
+	Adubbz: Welcome back darts and dart blowers
+	Catcwe316: Changed shrub texture
+
+Build 1.6.4-1.2.0.388:
+	Catcwe316: Updated cape list
+
+Build 1.6.4-1.2.0.386:
+	Catcwe316: Made pine tree generation look nicer, changed pine leaf textures
+
+Build 1.6.4-1.2.0.385:
+	Adubbz: Please work...
+
+Build 1.6.4-1.2.0.384:
+	Adubbz: Testing
+
+Build 1.6.4-1.2.0.383:
+	Adubbz: Bah
+
+Build 1.6.4-1.2.0.382:
+	Adubbz: Attempted to fix capes
+
+Build 1.6.4-1.2.0.381:
+	Adubbz: *Hopefully* added support for respawning with Natura installed
+	Adubbz: Removed override annotation that was breaking things
+
+Build 1.6.4-1.2.0.379:
+	Catcwe316: Updated Forestry integration, added crafting recipe for overgrown netherrack
+
+Build 1.6.4-1.2.0.378:
+	Catcwe316: Changed the fog color of the Silkglades
+
+Build 1.6.4-1.2.0.377:
+	Catcwe316: Changed the surface/filler block of the Phantasmagoric Inferno to ash
+
+Build 1.6.4-1.2.0.376:
+	Catcwe316: Tweaked overgrown netherrack gen a bit
+
+Build 1.6.4-1.2.0.375:
+	Catcwe316: Replaced grass blocks in the Undergarden with overgrown netherrack
+
+Build 1.6.4-1.2.0.374:
+	Catcwe316: Disabled the Deadlands in the default config
+
+Build 1.6.4-1.2.0.373:
+	Catcwe316: Cape names
+
+Build 1.6.4-1.2.0.372:
+	Catcwe316: Finished cape stuff...For now...
+
+Build 1.6.4-1.2.0.371:
+	Catcwe316: More cape stuff
+
+Build 1.6.4-1.2.0.370:
+	Catcwe316: You already know what this is
+
+Build 1.6.4-1.2.0.369:
+	Catcwe316: Testing another type of dev cape
+
+Build 1.6.4-1.2.0.368:
+	Catcwe316: Changed dev cape again
+
+Build 1.6.4-1.2.0.367:
+	Catcwe316: Changed dev cape image
+
+Build 1.6.4-1.2.0.366:
+	Catcwe316: Changed the Ominous Woods sky color
+
+Build 1.6.4-1.2.0.365:
+	смирнов антон михайлович:
+		Update ru_RU.lang
+		
+		minor tweaks
+
+Build 1.6.4-1.2.0.364:
+	Adubbz: Upped the version number to 1.2.0, this is now the recommended version
+
+Build 1.6.4-1.1.3.363:
+	Adubbz: Welcome back Treecapacitator integration. *Hopefully* closes #130 completely
+
+Build 1.6.4-1.1.3.362:
+	Catcwe316: "Fixed" some saplings textures
+
+Build 1.6.4-1.1.3.361:
+	Adubbz: Toying with a possible fix for treecapacitator integration
+
+Build 1.6.4-1.1.3.360:
+	Adubbz: Added a check to ensure rosester rose-placing is on the server side
+
+Build 1.6.4-1.1.3.359:
+	Adubbz: The nether is now overridden by default in the ATG world type. Fixes #145
+
+Build 1.6.4-1.1.3.358:
+	Adubbz: The enderporter now checks for whether or not isSurfaceWorld() returns true in the world provider. Closes #117
+
+Build 1.6.4-1.1.3.357:
+	Adubbz: Greatly reduced the chances Rosesters have of spawning roses. Closes #140
+
+Build 1.6.4-1.1.3.356:
+	Adubbz: BOPBlockFoliage now extends BlockTallGrass. Closes #141
+
+Build 1.6.4-1.1.3.355:
+	смирнов антон михайлович: Update ru_RU.lang
+
+Build 1.6.4-1.1.3.354:
+	enosphorous: Begin re-localization of zh_CN.lang
+	enosphorous:
+		Updated and fixed zh_CN.lang.
+		
+		Just a quick little Christmas gift for the BoP team.
+
+Build 1.6.4-1.1.3.353:
+	Catcwe316: Nerfed nether wart generation in the Undergarden, redid some sapling textures
+
+Build 1.6.4-1.1.3.352:
+	Catcwe316: Nerfed the Orchard biome/apple trees yet again
+
+Build 1.6.4-1.1.3.351:
+	Catcwe316: Changed magic tree textures
+
+Build 1.6.4-1.1.3.350:
+	Adubbz: There once was a man named Stanley. He sat in room 147 entering commands that appeared on his monitor. Fixed #147
+
+Build 1.6.4-1.1.3.349:
+	Adubbz: Scrapped grass/leaves/foliage colouring as it only served to cause bugs, was used by few and will be one less hinderance in updating to 1.7
+
+Build 1.6.4-1.1.3.348:
+	Catcwe316: Testing stuff
+
+Build 1.6.4-1.1.3.347:
+	Catcwe316: Replaced beetroots with turnips
+
+Build 1.6.4-1.1.3.346:
+	Adubbz: Removed unnecessary stuff from the OreDictionary
+
+Build 1.6.4-1.1.3.345:
+	Adubbz: Reduced the required Forge version
+	Adubbz: Removed CodeChickenCore dependency and simply added DepLoader to BOP
+	Adubbz: Officially removed 1.6.2 support (In reality, it was removed a while back when the required Forge was made to 952)
+	Adubbz: Fixed a bug from lowering the Forge version requirement
+
+Build 1.6.4-1.1.3.341:
+	Adubbz: Let the games... Begin!
+	Adubbz: Modularized stats
+	Adubbz: Fixed server crashing
+	Adubbz: Added info files and the logo
+	Adubbz: Body temperature now changes from the current biome temperature and temperature sources (fire is currently the only one of these that is defined)
+	Adubbz: Forgot to remove debug crap
+	Adubbz: Hugely simplified the temperature system to be far more logical
+	Adubbz: Added temperature modifiers for the time and a few player states
+
+Build 1.6.4-1.1.3.340:
+	Adubbz: Made Gradle only replace the temp Forge version in BiomesOPlenty.java
+
+Build 335:
+	Adubbz: Attempted to fix change log version number
+	Adubbz: Ah well, scrapped that
+
+Build 333:
+	Adubbz: Stalactites and stalagmites now support any block that extends BlockStone
+
+Build 332:
+	Adubbz: Fixed change logs once and for all (I hope)
+
+Build 331:
+	Adubbz: Maybe...
+	Adubbz: Tell me why...
+	Adubbz: Be nice.
+	Adubbz: Goddamnit
+	Adubbz: :/
+	Adubbz: Testing...
+	Adubbz: Maybe it'll work this time...
+
+Build 324:
+	Adubbz: Testing
+	Adubbz: Attempted to fix strings
+	Adubbz: Failing...
+	Adubbz: *Maybe* it won't fail this time
+
+Build 320:
+	Adubbz: Supposedly change logs work...
+
+Build 319:
+	Vexatos: Update de_DE.lang
+	Vexatos: Tiny improvement.
+	Adubbz: Gradlelized BOP
+	Adubbz: Removed remnants of javadoc attempts, removed unnecessary Forge repo declaration
+	Adubbz: Made the expand spread over multiple lines
+	Adubbz: Fixed Gradle indentation
+	Adubbz: Removed build.xml, added the gradle wrapper to the repo
+	Adubbz: Removed changelog.py
+
+Build 308:
+	Catcwe316: Added beetroots (From Minecraft Pocket Edition)
+
+Build 307:
+	смирнов антон михайлович: Update ru_RU.lang
+
+Build 306:
+	Adubbz: Possibily fixed treecapacitator integration
+
+Build 305:
+	amnet: Fixed leaves.
+
+Build 304:
+	Catcwe316: fixed cape names and image
+
+Build 303:
+	Adubbz: Redwood saplings actually grow now and now only require a single sapling
+
+Build 302:
+	Adubbz: Added dev capes, because you know, being special is cool :P
+
+Build 301:
+	Adubbz: Clamped the hive getIcon to prevent crashes for people with ID conflicts
+
+Build 300:
+	Adubbz: Update build.xml
+
+Build 299:
+	Adubbz: Reduced pixie spawns, disabled lighting in the Promised Land (As a result, performance should be far less of a problem than it previously was)
+	Adubbz: Update build.xml
+	Adubbz: Boring build file stuff
+
+Build 296:
+	Adubbz: Buckets holding BOP Fluids will now cross over to 1.7 when the time comes
+
+Build 295:
+	Adubbz: Pixie particles are now only spawned on the client (Fixes an NPE with them)
+	Adubbz: And apparently Rosester's had the RenderPlayer method in them... Right...
+
+Build 294:
+	Adubbz: Attempted to fix TE integration
+
+Build 293:
+	Adubbz: Fixed a derp with colorized leaves ids
+
+Build 292:
+	Adubbz: Fixed #128
+
+Build 291:
+	Adubbz: Changed the way we check for the client, as per Mistaqur's advice
+
+Build 290:
+	Adubbz: Removed commented TE stuff, since that is automatically handled now. Still need to fix the pulveriser recipes for bones.
+
+Build 289:
+	Adubbz: Moved TE integration to preinit
+
+Build 288:
+	Adubbz: Tinkering with the new TC API/IMC system
+
+Build 287:
+	Adubbz: Updated the WorldCore version
+
+Build 286:
+	Catcwe316: Changed default biomes to generate in config
+
+Build 285:
+	Adubbz: Forgot to remove debug stuff
+
+Build 284:
+	Adubbz: Time to use the "Derpy Forstride" Spray!
+
+Build 283:
+	Catcwe316: Tweaks to the Wasteland biome
+
+Build 282:
+	Vexatos: Updated de_DE.lang
+
+Build 281:
+	Catcwe316: Added pixie trail particles that keep crashing
+	Catcwe316: Prevented underground liquid poison/spring water lakes from generating in the Origin Valley, Nether, and Promised Land
+	Catcwe316: Fixed achievement bug (I think)
+	Catcwe316: Made Ambrosia crafting recipe use pixie dust instead of dandelions
+	Catcwe316: Added Pixie Jars
+	aarongauntlett: Fixed pixie placement
+	Catcwe316: Fixed Pixie spawns (I think)
+
+Build 280:
+	Adubbz: Amongst other things, added Pixie Jars and prevented Poison and Spring Water from generating in Origin Valley, the Promised Land and the Nether
+
+Build 278:
+	aarongauntlett: Fixed pixie placement
+
+Build 277:
+	Catcwe316: Added Pixie Jars
+
+Build 276:
+	Catcwe316: Made Ambrosia crafting recipe use pixie dust instead of dandelions
+
+Build 275:
+	Catcwe316: Fixed achievement bug (I think)
+
+Build 274:
+	Catcwe316: Prevented underground liquid poison/spring water lakes from generating in the Origin Valley, Nether, and Promised Land
+
+Build 273:
+	Catcwe316: Added pixie trail particles that keep crashing
+
+Build 272:
+	Adubbz: Tweaked magic leaves
+
+Build 271:
+	Adubbz: Added the awesomest magic particles ever
+
+Build 270:
+	Catcwe316: Made pixies "glow"
+
+Build 269:
+	Catcwe316: Tried to add particles for magic leaves
+
+Build 268:
+	смирнов антон михайлович: Update ru_RU.lang
+
+Build 267:
+	Catcwe316: Finished adding Pixies
+
+Build 266:
+	Catcwe316: Added Pixie model and texture
+
+Build 265:
+	Catcwe316: Tweaked some biome heights
+
+Build 264:
+	Catcwe316: Fixed "Achivements O' Plenty" achievement
+
+Build 263:
+	Catcwe316: Achievement tweaks
+
+Build 262:
+	Adubbz: Update build.xml
+
+Build 261:
+	Catcwe316: Made empty jars able to scoop up honey
+
+Build 260:
+	Adubbz: Fixed a bug with colorised leaves
+
+Build 259:
+	Adubbz: Split up the colorised leaves into separate ids (hopefully)
+	Catcwe316: Fixed world gen for new leaves
+
+Build 257:
+	Adubbz: Hopefully switched tree leaves to separate IDS
+
+Build 256:
+	Catcwe316: Added additional leaf block IDs
+
+Build 255:
+	Adubbz: Simplified block registration and added item registration
+
+Build 254:
+	Adubbz: Removed the license from the repo for the time being, it's still in the Readme and forum post however
+
+Build 253:
+	Adubbz: HTML
+
+Build 252:
+	Adubbz: License
+
+Build 251:
+	Adubbz: Updated license
+
+Build 250:
+	Adubbz: Updated "Update available" message to better reflect what it actually means
+
+Build 249:
+	Catcwe316: Tweaked Wasteland biome
+
+Build 248:
+	amnet: Update dependancies.info
+
+Build 247:
+	Catcwe316: Tweaked Ambrosia, changed how you obtain the ??? music disc
+
+Build 246:
+	Adubbz: Updated dependancies.info
+
+Build 245:
+	Catcwe316: Added clover leaf patches, add jars, tweaked food
+	Vexatos: So many allusions in the new achievements :O
+	Adubbz: Update build.xml
+	Catcwe316: Added chunk of flesh, fixed jars
+	Catcwe316: Added Ambrosia drink
+	Adubbz: Updated Forge and WorldCore
+
+Build 238:
+	Catcwe316: Added Sublime Shrubland biome to Promised Land, fixed violet generation
+
+Build 237:
+	Catcwe316: Reorganized block and item IDs
+
+Build 236:
+	Catcwe316: Tweaked some textures
+
+Build 235:
+	Catcwe316: More tweaking
+
+Build 234:
+	Catcwe316: Moved gem items to a new class/ID, added honeycomb items/crafting
+
+Build 233:
+	Catcwe316: Even more achievement tweaks
+
+Build 232:
+	Catcwe316: More work on achievements
+
+Build 231:
+	Catcwe316: Started reworking achievements
+
+Build 230:
+	amnet: Fixing MFR Integration.
+
+Build 229:
+	Catcwe316: More cleaning
+
+Build 228:
+	Adubbz: Adios Soul Crap!
+
+Build 227:
+	Catcwe316: Tweaked gem textures
+
+Build 226:
+	Vexatos: Updated de_DE.lang
+
+Build 225:
+	Catcwe316: New decorative gem block textures
+
+Build 224:
+	Catcwe316: New textures for gems
+
+Build 223:
+	Catcwe316: Made leather armor protect you from deathblooms, burning blossoms, thorns, and tiny cacti
+	Catcwe316: Changed some biome heights
+	amnet: Update dependancies.info
+	Catcwe316: Added appropriate "colors" for all of the biomes
+	Catcwe316: Tweaked biome "colors"
+	Catcwe316: Tweaked ocean biome "colors"
+	amnet: Nerfed drops for gems.
+
+Build 216:
+	Adubbz: Updated WorldCore
+
+Build 215:
+	Adubbz: Fixed derp in dependancies file
+
+Build 214:
+	Adubbz: Updated build file and dependancies
+
+Build 213:
+	Adubbz: Updated dependancies.info
+
+Build 212:
+	Catcwe316: New cloud generation
+
+Build 211:
+	Catcwe316: Tweaked the Mystic Grove water color
+
+Build 210:
+	Catcwe316: Gave roots a random offset
+
+Build 209:
+	Catcwe316: Promised Land tweaks
+
+Build 208:
+	Catcwe316: Tweaked bird texture
+
+Build 207:
+	Catcwe316: Made Rosesters place roses where they walk
+
+Build 206:
+	смирнов антон михайлович: Update ru_RU.lang
+
+Build 205:
+	Adubbz: Attempted to get birds to avoid water
+
+Build 204:
+	Catcwe316: Tweaked bird wing flapping
+
+Build 203:
+	Adubbz: Bird wings now flap
+
+Build 202:
+	Catcwe316: Updated bird settings
+
+Build 201:
+	Catcwe316: Updated bird AI
+
+Build 200:
+	Adubbz: Updated the dependancies.info
+
+Build 199:
+	Catcwe316: Started on the bird mob
+
+Build 198:
+	Catcwe316: Tweaked reed gen a bit
+
+Build 197:
+	Catcwe316: Added stalagmites and stalactites
+
+Build 196:
+	amnet: Fixing issue #113.
+
+Build 195:
+	Catcwe316: Added bird model and texture
+
+Build 194:
+	Adubbz: Removed DepLoader. Forstride: Do the same thing as you do with FMP to get it to stop erroring
+
+Build 193:
+	Adubbz: You saw nothing
+
+Build 192:
+	Adubbz: Why did you do it? We know it was you.
+
+Build 191:
+	Adubbz: And more build file crap!
+	Adubbz: Build file paradise!
+	Catcwe316: Renamed Apatite to Malachite
+	Adubbz: Queue the circus music!
+	Adubbz: The acrobats are coming out!
+	Adubbz: Ah yes. Aren't they wonderful? Next act.
+	Adubbz: That is the last act? Oh...
+
+Build 184:
+	Catcwe316: Tweaked root texture
+
+Build 183:
+	Catcwe316: Added a root plant
+
+Build 182:
+	Adubbz: More build file nonsense
+
+Build 181:
+	Adubbz: Messing with the build file
+
+Build 180:
+	Adubbz: DepLoader is now loaded properly... Oops...
+
+Build 179:
+	Adubbz: Now using Azanor's dependancies.info file
+
+Build 178:
+	Adubbz: Switched to using WorldCore
+	Adubbz: Toying with Deploader
+	Adubbz: Temporarily added Worldcore as an API
+
+Build 175:
+	Catcwe316: Added Jacaranda trees to the Mystic Grove
+
+Build 174:
+	amnet: Fixed ATG Integration crash.
+
+Build 173:
+	Catcwe316: Fixed Amnet's derp
+
+Build 172:
+	amnet: Fixing the inconsistent biome maps.
+
+Build 171:
+	Catcwe316: Redesigned the Mystic Grove
+
+Build 170:
+	Catcwe316: Redesigned the Fungi Forest
+
+Build 169:
+	Catcwe316: Tweaked more biome fog color/thickness stuff
+
+Build 168:
+	Adubbz: Fixed a derp
+
+Build 167:
+	Adubbz: Tinkering
+
+Build 166:
+	Catcwe316: Fixed fog closeness values
+
+Build 165:
+	Adubbz: Removed debug messages
+
+Build 164:
+	Adubbz: Fogginess can now be changed per biome alongside the colour
+
+Build 163:
+	Catcwe316: Stuff
+
+Build 162:
+	Adubbz: Reduced the smoothing area a bit to be in line with the water, should also increase performance a tiny bit
+
+Build 161:
+	Adubbz: Fixed the crafting of wooden slabs and stairs
+
+Build 160:
+	Adubbz: Fixed a crash bug
+
+Build 159:
+	Adubbz: Added some missing biomes to the ATG integration
+	Adubbz: Fog colours can now be on a per-biome basis
+
+Build 158:
+	смирнов антон михайлович: Update ru_RU.lang
+
+Build 157:
+	Catcwe316: Added separate ring textures for the rest of the logs
+
+Build 156:
+	Catcwe316: Made honey give slowness upon contact
+
+Build 155:
+	Catcwe316: Made hives a bit more common
+
+Build 154:
+	Catcwe316: Added filled honeycombs
+
+Build 153:
+	Catcwe316: Added honey block generation to hives
+
+Build 152:
+	Vexatos: Update de_DE.lang
+
+Build 151:
+	Catcwe316: Moved the honey block to its own class
+
+Build 150:
+	Catcwe316: Added a hurt sound for the wasp
+
+Build 149:
+	Adubbz: Fixed wasp hurt highlighting
+
+Build 148:
+	Catcwe316: Fixed wasp size
+
+Build 147:
+	Catcwe316: Fixed up hive generation yet again
+
+Build 146:
+	Catcwe316: Fixed the honey liquid
+
+Build 145:
+	Catcwe316: Made honey a finite liquid
+
+Build 144:
+	Catcwe316: Added empty honeycombs
+
+Build 143:
+	Catcwe316: Added hive sub-blocks, tweaked hive generation
+
+Build 142:
+	Catcwe316: Changed how wasp spawners generate
+
+Build 141:
+	Adubbz: Added wasp spawners, made wasp movement more random and frequent
+
+Build 140:
+	Catcwe316: Added honey
+
+Build 139:
+	Catcwe316: Added honey generation to the hives (Using water for now)
+
+Build 138:
+	Catcwe316: Added wasp spawning
+
+Build 137:
+	Catcwe316: Removed the Hellish Hive biome, added textures for things
+
+Build 136:
+	Catcwe316: Organized the hive generation a bit
+
+Build 135:
+	Catcwe316: Attempt at fixing hive placement
+
+Build 134:
+	Catcwe316: Made hives look nicer
+
+Build 133:
+	Catcwe316: Fixed up hive generation
+
+Build 132:
+	Catcwe316: Added "The Hive" biome to the Nether
+
+Build 131:
+	Catcwe316: Updated wasp entity settings
+
+Build 130:
+	Adubbz: Finished off wasps
+
+Build 129:
+	Adubbz: Basic bee modelling done, now onto the AI
+
+Build 128:
+	Catcwe316: Tweaked wasp texture
+
+Build 127:
+	Adubbz: Hives now fit into the landscape better
+
+Build 126:
+	Adubbz: Simplified hive generation
+
+Build 125:
+	Catcwe316: Added wasp model and texture
+	Adubbz: Toying with hive generation
+	Catcwe316: Fixed wasp model
+	Adubbz: Fixed errors with Forstride's wasp model
+
+Build 121:
+	Catcwe316: Added Hive blocks
+
+Build 120:
+	amnet:
+		Fixed ocean generation.
+		Added new Terrain Gen option.
+
+Build 119:
+	Catcwe316: Added Bloody Heap biome to the Nether
+
+Build 118:
+	Adubbz: Purified grass no longer burns infinitely outside the Nether.
+
+Build 117:
+	amnet: Fix for issue #100.
+
+Build 116:
+	смирнов антон михайлович: Update ru_RU.lang
+
+Build 115:
+	Adubbz: Accounted for ATG in the "Use Biomes O' Plenty world type" nag message. Localization peeps, you have a new phrase to localize :P
+
+Build 114:
+	Adubbz: The ATG integration now respects whether or not a biome is enabled in our config file
+
+Build 113:
+	Adubbz: Let's ditch those capitals
+	Adubbz: Done ditching
+
+Build 112:
+	Adubbz: Re-added MFR API
+	Adubbz: Updated and Re-added MFR Integration
+
+Build 111:
+	amnet: Added ATG Integration.
+
+Build 110:
+	Catcwe316: Changed the icon for the Sacred Springs achievement
+
+Build 109:
+	amnet: Fixing the sacred oak sapling tree gen.
+
+Build 108:
+	Catcwe316: Added Koru world gen
+
+Build 107:
+	Catcwe316: Added Koru fern
+
+Build 106:
+	Catcwe316: Updated persimmon leaf textures for Better Grass & Leaves
+
+Build 105:
+	смирнов антон михайлович: Update ru_RU.lang
+
+Build 104:
+	Adubbz: Nag messages can now be translated. Closes #101
+
+Build 103:
+	смирнов антон михайлович: Update ru_RU.lang
+
+Build 102:
+	Adubbz: Added transformer exclusion
+
+Build 101:
+	Adubbz: Another attempt at fixing the sided asm issues
+
+Build 100:
+	Adubbz: Fixed a few deeps
+
+Build 99:
+	Adubbz: Finished moving achievement localizations
+
+Build 98:
+	Adubbz: More localisation moving
+
+Build 97:
+	Adubbz: Moved some more achievement localizations
+
+Build 96:
+	Adubbz: Started moving achievement localizations into the lang file
+
+Build 95:
+	Adubbz: Another attempt at fixing server nonsense
+
+Build 94:
+	Adubbz: Hopefully fixed an issue with servers
+
+Build 93:
+	Adubbz: Tweaked the build file
+
+Build 92:
+	Adubbz: Fast graphics no longer use the new smoothing
+
+Build 91:
+	Adubbz: Removed debug messages as it works properly now
+
+Build 90:
+	Adubbz: Added Picksur's Better Grass and Leaves textures for Persimmons
+
+Build 89:
+	Adubbz: Added debug console output and more messing with obfuscated names
+
+Build 88:
+	Adubbz: Yay for forgetting to account for things!
+
+Build 87:
+	Adubbz: More mapping corrections
+
+Build 86:
+	Adubbz: Fixed obfuscated mappings
+
+Build 85:
+	Adubbz: Tweaked the Manifest.MF
+
+Build 84:
+	Adubbz: Foliage, Grass and Water biome colours now smoothly transition from one biome to another. This smoothness is 100% configurable and is separate for each type (One value for Foliage, one for Grass and one for Water).
+
+Build 83:
+	Adubbz: Spring cleaning
+
+Build 82:
+	Adubbz: Completely ripped out the MFR API as it is no longer needed (BOP integration is now in MFR itself)
+
+Build 81:
+	amnet: Hopefully fixing the phantoms suffocating players in walls.
+
+Build 80:
+	amnet: Added a possibility to disable mobs.
+
+Build 79:
+	amnet: Disabled MFR and TE mod cross integration to prevent crashes.
+
+Build 78:
+	Vexatos: You know.
+
+Build 77:
+	amnet: Updating Thaumcraft API to the newest version.
+
+Build 76:
+	samrg472: Restore compatibility with MFR, fixes #86
+
+Build 75:
+	amnet: Updated ore dictionary entries for mod cross integration.
+
+Build 74:
+	Catcwe316: Fixed palm trees not generating in spaces with foliage/flowers.  Made sunflowers not generate unless both spaces are empty.
+
+Build 73:
+	Catcwe316: Tweaked the Tropics more
+
+Build 72:
+	Adubbz: Increased Phantom spawn rates
+
+Build 71:
+	Catcwe316: Tweaked the Tropics biome
+
+Build 70:
+	meatkroket: Random palm trees
+
+Build 69:
+	meatkroket: Random pine trees
+
+Build 68:
+	Catcwe316: Added a Sacred Oak sapling
+
+Build 67:
+	Catcwe316: Fixed massive tree trunks again
+
+Build 66:
+	Catcwe316: Fixed tree trunks
+
+Build 65:
+	Catcwe316: Attempt as massive oak trees
+
+Build 64:
+	Catcwe316: Tweaked some achievement icons
+
+Build 63:
+	Catcwe316: Tweaked the Wasteland a bit and changed max/min height of the Marsh
+
+Build 62:
+	Catcwe316: Made reeds generate based on the distance to land rather than the depth of the water
+
+Build 61:
+	Catcwe316: Tweaked reed gen again.  Removed sand bordering water in the Coniferous Forest.
+
+Build 60:
+	Catcwe316: Added reeds to more biomes
+
+Build 59:
+	Catcwe316: Redwood Forest tweaks
+
+Build 58:
+	Catcwe316: Added a redwood shrub thing to Redwood Forests
+
+Build 57:
+	Vexatos: Update de_DE.lang
+
+Build 56:
+	Adubbz:
+		Revert "Test run of a new version checker for Forge"
+		
+		This reverts commit df2a2c78d0081f34ae9f8f79021d876fc0a2aa85.
+
+Build 55:
+	Adubbz: Test run of a new version checker for Forge
+
+Build 54:
+	смирнов антон михайлович: Update ru_RU.lang
+
+Build 53:
+	Adubbz: Switched to the vanilla localisation system. Note to localisation helpers: I did already convert all of the current localizations, however i can't guarantee i haven't stuffed anything up by mistake. If i have, feel free to submit a pull request.
+
+Build 52:
+	Adubbz: Updated version.txt
+
+Build 51:
+	amnet: Added checks for Forge version to fix serverside crashes.
+
+Build 50:
+	amnet: Backwards compatibility to 1.6.2.
+
+Build 49:
+	Adubbz: Version.txt update
+
+Build 48:
+	Catcwe316: Tweaked bamboo textures
+
+Build 47:
+	Adubbz: New bamboo rendering
+
+Build 46:
+	Adubbz: Updated the version number
+
+Build 45:
+	Catcwe316: Removed short grass from the Marsh
+
+Build 44:
+	Adubbz: Herpaderp
+
+Build 43:
+	Adubbz: Corrected the latest build number
+
+Build 42:
+	Catcwe316: Tweaked reed item texture
+
+Build 41:
+	Adubbz: Another tweak to the change log
+
+Build 40:
+	Adubbz: Another attempt at cutting out the author
+	Catcwe316: Tweaked reed gen further
+	Adubbz: More toying with change logs
+
+Build 37:
+	Adubbz: Tried to remove commit authors from the change log
+
+Build 36:
+	Catcwe316: Tweaked reed gen
+
+Build 34:
+	Adubbz: Readded the change log to play with
+
+Build 33:
+	Catcwe316: Added reed gen
+
+Build 32:
+	Adubbz: New versioning scheme kids
+
+Build 31:
+	Adubbz: Updated the change log
+
+Build 30:
+	Adubbz: Fixed crash bug with reeds
+
+Build 29:
+	Adubbz: Take 2 at reeds
+
+Build 28:
+	Catcwe316: Changed reeds to river cane, started adding proper reeds
+	Adubbz: Fixed reed rendering
+
+Build 27:
+	Catcwe316: Added mud to Marshes
+
+Build 26:
+	Adubbz: Readded the BOP Api as well as the dev build
+
+Build 25:
+	Adubbz: Removed the change log
+
+Build 24:
+	Catcwe316: Tweaked some textures
+
+Build 23:
+	Catcwe316: Added wheat grass and damp grass to biomes that didn't have them
+
+Build 22:
+	смирнов антон михайлович: Update ru_RU.xml
+
+Build 21:
+	Adubbz: Added some missing files to the dev version
+
+Build 20:
+	Adubbz: Take 2 at dev builds
+	Adubbz: Fixing derpiness
+
+Build 18:
+	Adubbz: Began work on creating a dev build rather than an API
+	Adubbz: Attempt to fix recompiling
+	Adubbz: Temporarily scrapped the dev build
+
+Build 15:
+	Vexatos: Updated de_DE.xml
+
+Build 14:
+	Adubbz: Added change log generation
+
+Build 10:
+	Adubbz: Borrowed Forge's change log script
+
+Build 6:
+	Adubbz: Added the BiomesOPlenty API to the build script
+	Adubbz: Updated build.xml
+
