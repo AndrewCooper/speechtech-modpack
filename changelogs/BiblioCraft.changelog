@@ -1,0 +1,165 @@
+V1.5.4-
+*Added Feature to Armor Stand: Pumpkins can now be placed on armor stands in the head position.
+*Improved head support on Armor Stands: Now pretty much any custom head should work on the armor stand, including modded heads and unique player heads.
+*3D armors on the armor stand should no longer cause crashes. I found a fix to hopefully permanently fix the common null pointer crash that would happen with certain 3D armors.
+*Version checking captive portal issue should be fixed. This caused some config file related crashes when the version checker couldn't connect to my website and would get an error page in return which messed up the config file. Please post on the forum or respond to a post on my front page if this is still an issue, I don't have the conditions to test so I can only work from theory.
+*Huge Fast Graphics fix across all Bibliocraft blocks. Fast graphics should finally work properly and items should not follow the player and rotate the wrong directions.
+*Enchantment cost has been adjusted. There is now a sliding scale for multiple enchantments. For single enchants, the cost is the same. But for example, a book with 4 top level enchantments only costs 76 levels to copy vs previously that would have cost 160 levels.
+*Enchantment cost can now be adjusted in the config file. There is a multiplier value in the config which by default is set to 10 and that gives the default rate. This allows the multiplier to be set as low as 1 to reduce the cost to 1/10th the default cost. Any whole number integer can be entered. Even 0 can be entered and it will be free to copy books on the typesetting table.
+*Thaumcraft compatibility fix: Essence jars with labels now face the correct direction on the different shelves and the cases.
+*Witchery compatibility added: A whole bunch of items have been added to the appropriate blocks in BiblioCraft.
+
+V1.5.3-
+*Fixed another crash with the armor stand and some of the 3D armors such as the harness from Thaumcraft and the newer 3D armor in Twilight Forest.
+*Fixed the zombie head on the armor stand.
+*Fixed a rotation bug with the Dinner Plate that caused it to be placed facing the opposite direction (noticeable with certain foods).
+
+V1.5.2-
+*Fixed a crash related to the armor stand, FakePlayer and forge builds ~v940 and later.
+
+V1.5.1-
+*Upgraded Table to now allow carpets to be placed under them. To place a carpet under the table, right click with the carpet of your choice on one of the 4 sides (North, South, East, or West) of the table. To remove the carpet, sneak right click anywhere on the table with a screw gun.
+*Fixed a crash with seats updating nearby blocks such as trap doors.
+
+V1.5.0-
+*Added Disc Racks. Up to 9 discs can be placed in the disc rack. They work just click bookcases. Right click with a disc to add to that slot, if you hand does not have a disc or the disc rack is full, a GUI interface will open. Sneak-click a disc with an empty hand to remove that disc. There is also a config line to add new items to the disc rack (just like the bookcase) if there is something in a mod that doesn't work and you would like it to.
+*Added Dinner Plates. Up to 3 stacks of food may be placed on a dinner plate. If the player has food in his hand when right clicking, the Dinner Plate will automatically accept the food and place it on the plate. If the plate is empty and the player clicks without food in hand, the GUI will open, otherwise, the player must shift-click with an empty hand to open the GUI. The dinner plate can be ate from by right clicking the plate 4 times. The first 3 clicks are the "chewing" of the food, following by the eating on the 4th. The player will consume up to 3 pieces of food (one from each slot) if the player is hungry enough. Food will cease to be consumed when the player is no longer hungry.
+*Added Seats. The basic seat comes in all 4 wood varieties. There are 5 types of seat back items that can be crafted and placed on the seat to give the seat a back. Each of the 5 back types can be crafted out of any of the 4 wood varieties and mixed and matched with the seats. Using a different back wood color than the seat will cause the legs to change color to match the back. The seats can also be "upholstered" using vanilla carpets. Simply right click with any of the 16 vanilla carpets to apply that color to the seat. To remove the carpet, right click the seat with the screw gun. To remove the seat back, right click the seat with the screw gun again, with the carpet removed. The seats can also be connected together if 2 or more seats are placed next to each other and the top (the cloth seat) of each seat is sneak-clicked with the screw gun. The same process on the same seats will disconnect the seats if they are connected.
+*Added Map Frames. These can be crafted out of any of the 4 vanilla woods and can be placed on floors, walls, and ceilings. They will display a vanilla map scaled to fit a full block so multiple map frames may be placed next to each other for seamless large maps. Maps can be rotated by sneak-clicking with an empty hand. Maps can be removed by right clicking with a screw gun. Map frames can also have waypoint pins placed on vanilla maps to mark way points using the Drafting Compass. See the Drafting Compass for more detail. A waypoint pin can be right clicked by the player on the map and the waypoint name and world coordinates will be displayed as a chat message. Those waypoint pins can than be selected with the Waypoint Compass to lead the player to that location in the world. See Waypoint Compass for more detail. Note: Clicking a waypoint requires the player to click very close to where the waypoint pin is inserted into the map.
+*Added Drafting Compass. This is a companion tool for Map Frames. Right click a map inside a map frame to add a waypoint pin to the map. A GUI will pop up and you can name the Waypoint and select the pin color. Right click the colored square to alternate between 16 colors. To edit or remove a waypoint from the map, right click the waypoint on the map with the Drafting Compass and the GUI will pop up with options to edit the waypoint name, color, or use the option to "remove" the waypoint.
+*Huge Screw Gun upgrade. The screw gun can now rotate and manipulate every block in BiblioCraft except the cookie jar. Most blocks, sneak right-clicking will rotate the block. With some cases, such as the lamps, lanterns, and cases, the "style" will change when just right clicking with the screw gun. The lamps and lanterns will change from floor, to wall, to ceiling styles and back again. The cases will change from floor to wall styles. The screw gun can also rotate many of vanillas block by sneak right-clicking. The piston, sticky piston, dispensers, droppers, repeaters, comparators, levers (floor/ceiling only), doors, single chests, ender chests, furnaces and finally anvils can all be rotated in this manner.
+*Upgraded: Maps now display if placed on tables or desks.
+*Config Option: Added a config option to change the update rate of maps on desks, tables, and in map frames. This is a server side config option which can speed up maps loading (useful for singleplayer and lan) or slow them down if the server is large and maps become plentiful.
+*Upgraded Desk: Craftguide (from Craftguide mod) and the Railcraft Routing table can now be placed on desks and opened and used from the desk.
+*Upgraded: Printing Press now implements ISidedInventory so completed books can be extracted from the bottom of the printing press (automatically with the vanilla hoppers) and any compatible supplies for the press can be inserted into any of the 4 sides.
+*Fixed: Thaumcraft 4 robes now display correctly on armor stands.
+*Fixed: Leather Armor now displays the second layer of detail on armor stands.
+*Fixed: Lock and key now correctly reads the players name when used on a server. Previously, there was issues with locked blocks denying access after reconnecting to a server where that player has locked blocks.
+*Tweaked: Marker poles from the tape measure now have a small bounding box in the center of the pole so they can be destroyed by hand. They also have been removed from the creative menu.
+*Added: Version checking. Now I can pester you with a one time message when I release an update. This message will only display one time for each update I release and this one time message can be completely disabled in the config file.
+
+ 
+
+V1.4.1-
+*Added support for more BiblioWoods. This version support BiblioWoods for Forestry, Biomes O' Plenty, Natura, ExtraBiomesXL and Highlands. Woods galore!
+*Added lots of languages! All the BiblioWoods addons now include German and Italian translations, some include a few others. BiblioCraft includes 21 different language translations. Please see my github if you would like a full list.
+*Added option in the config to change the number of uses an enchanted plate has.
+*Added default support for chisels in the tool racks. This is tested to work with carpenters blocks but I expect it to work with other chisels in other mods as well.
+*Fixed a crash (hopefully) on loading blocks that check for an unloaded tileentity when loading bounding boxes. Several folks seem to experience crashes on world loading and I think this should fix it. Either comment on the main news post or on the forum if anyone still has issues with that.
+*Fixed a crash with putting heads on the armor stand while in another language
+
+ 
+
+V1.4.0-
+*New Block: Cookie Jar. Emits a redstone signal when opened. Catch someone with their hand in the cookie jar! Currently accepts any item and for each slot filled, up to 8, there will appear a cookie in the jar.
+*New Item: Clipboard. This is a checklist with up to 50 pages, much like the written book. But there are 9 tasks and 1 title per page. The player clicks on the desired line or title line to write in that task. Then there is a square next to each task. Clicking one time will draw a green checkmark. Clicking a second time changes it to a red X mark. Clicking a third time clear the box again. The Clipboard works on the desk and can be opened and edited. The Clipboard also remembers what page you were last on both when your holding and when its on the desk, even when it is transferred back and forth. Also, the title of the page that was last read will appear in the tooltip when hovering the mouse over the item in your inventory.
+*New Table Mechanic: Table Cloths! Simply use the vanilla carpets adding in 1.6 and right click the top of a table. The carpet will be applied as a table cloth and drape over the edges. To remove the table cloth, right click the top of the table with the screw gun.
+*New Item: Screw gun. Currently only used to removed table cloths from tables by right clicking the top of the table and to adjust items on tables by right clicking the sides of the table. I have some plans to make more uses out of this. This will kind of be a general tool for manipulating various elements in BiblioCraft.
+*New Item: Lock and Key. This is a creative mode only item for the time being, primarily intended for adventure map makers. When right clicked on a BiblioCraft block (not all work with it, but most do) you will get a message that says the block is locked. When the block is locked, it can only be accessed by the user who locked the block and cannot be destroyed in survival mode. The block can be unlocked by right clicking again only if you are the owner. If another user tries to unlock the block with a lock and key it will inform the player they are not the owner.
+*Upgraded Tape Measure: Now places a "marker pole" block when starting a measurement and also reads a real time display of the distance to that block in meters. The block is removed upon completing a measurement. The block is non-craftable and has no hit box so it cannot be destroyed by hand. If for some reason a block is not removed then simply starting a new measurment on the same block and completing the measurment will remove the block.
+*Custom language support using the new systems in Minecraft 1.6. Simply locate the en_US.lang file inside the BiblioCraft zip file at /assets/bibliocraft/lang/en_US.lang, copy and rename to your appropriate language and edit inside a text editor. If you share your .lang files on the forum here I will review and include them in the next release.
+*Fixed tables and desks not being a solid surface so that now flower pots and other items can be placed on top by sneak-clicking.
+*Fixed an armor stand crash when using the number keys.
+*Added emergency render crash recovery config option: There is now an option in the BiblioCraft.cfg to disable all rendering of blocks. This is a client side only temporary measure to allow the player to load a world that will not load due to some odd item or armor that was placed on a BiblioCraft block and causing the game to crash due to a rendering error and the world to not load. This allows the player to remove the problem item from the stand or shelf and then re-enable rendering in the config to return to normal. If this happens to you, Please report any such errors and include the error log so I can try to fix for a future release.
+
+V1.3.4 -
+* Full update to 1.6.2. Straight port with many internal changes to accommodate changes in 1.6.x.
+
+V1.3.3 - 
+*Made a bunch of changes to accommodate having wood addons. Wood addons require at least v1.3.3 to function.
+*Redstone now propagates through the block behind the bookcase and display case. Also both blocks no longer emit a redstone signal from the front side.
+*Changed placement methods for lamps and lanterns. Now uses the face of the block the player clicks to determine if its a table/floor style, wall style, or ceiling style.
+
+V1.3.1 -
+*New Block: Golden Lantern - Craft the lantern and you will receive one with a white candle. Add any of the other 15 colors of dye to change the color of the candle. Add dye again to re-dye the candle to any of the 16 colors.
+*New Block: Fancy Lamp - Craft the lamp and it will have a white lamp hood. Just like the lantern, add oany of the other 15 colors of dye to change the color of the lamp hook. Add dye again to re-dye the hood to any of the 16 colors.
+*New Block: Tables - Items can be placed on the table by right clicking the top of the table with an item. Shift clicking with an empty hand will open a 1 slot GUI. If you use a tool such as the Tape Measure or a wrench/crowbar from another mod and click on either one of the 4 sides of the table to rotate the item on the table. Can be rotated around 2 different axis depending on which side of the table you right click with the tape measure or other tool. Tables can also be placed next to each other and the legs will dynamically change to try to fit the shape of the table.
+* New Item/Game Mechanic: Enchanted Plates. Now the player can take an enchanted book and place it on the bottom left slot of the typesetting table. If the player is wearing the reading glasses or other eyeware, the number of levels required to make an enchanted plate will be displayed. Sneak clicking the enchanted book with an empty hand with create an enchanted plate, provided the player has enough XP levels and a chase on the typesetting table. The plate can then be placed into the printing press and printed like a standard book with ink and blank books. The enchanted plate only has 3 uses before it breaks.
+* New Feature: Tables, Shelves, and display cases now emit the light level of whatever items they are holding.
+* New Feature: Bookcases can emit a redstone signal of any strengh 0-15 depending on where the redstone book is placed on the shelf. Top left slot is 0, bottom right is 15. Could use this with comparators to create complex locks. 3 book cases alone would give a total of 4096 possible combinations.
+* New Feature : Bookcases work with enchanting tables now. The number of books on the bookcases are counted and every 8 books is the equivalent of 1 vanilla bookshelf. So a full bookcases is equal to 2 vanilla bookshelves. The books do not have to be on the same shelf or even in the same bookcase for that matter, every book is counted.
+* Added Support: Thaumcraft Thaumostatic Harness 3D models now render on the armor stand. Requires Thaumcraft v3.0.5c+
+* Added Support: The Thaumanomacron can now be opened from the wooden desk.
+* Improved mod support. Now potion shelves support ars magica potions and the armor stands support Millenaire mod. Weapon racks have default support for the cresent hammer from thermal expansion, the sledge hammer from minefactory reloaded and the carpenters hammer from carpenters slopes.
+* Fixed a couple crashes with reading glasses and various things.
+
+V1.2.3 - 
+* New Feature - Applying a redstone signal to either the top or bottom block of the armor stand and then sneak-clicking the stand with an empty hand will swap the entire set of armor instead of just the piece you are looking at.
+* Fixed support for Tinkers Contruct tools on weapon racks, now all Tinkers tools should work.
+* Fixed a crash with the Hover Harness from Thaumcraft on the armor stand.
+* Fixed items not rendering in the players hand after forge version 687.
+* Fixed the name of the tape measure being incorrect.
+
+V1.2.1 - 
+* Added support for Modular Powersuits on the armor stands.
+* Added support for Tinkers Construct books on the bookcases.
+* Fixed a bug on the display case that could cause an item to get stuck in the block above it and warp through the celing when removing an item.
+* Added rendered text color code to config for the reading glasses. Players can now edit the config and change the color of the text to anything they choose.
+
+V1.2.0 -
+* NEW BLOCK: The Printing Press - Players can print signed books from saved written signed books! Simple create a plate with the desired book on the typesetting table, add ink to the ink plate, lay down some blank books, and set the plate in the middle and the press will print a book.
+* NEW BLOCK: The Typesetting Table  - This is where the play can save and retrieve signed books. Once a book is signed, it can be placed in the bottom left corner of the table. The player will see a red book. The player must hold sneak and right click with an empty hand on the book to save it. The book will turn blue. If Bibliocraft is being played in an SSP world, Bibliocraft will create a folder inside the players config folder named "books". This is where all the books are saved and can be passed around and shared with friends.  In SSP this also means that any saved books are accessible within all SSP worlds. One a dedicated SMP server, however, the "books" folder will be created inside of the loaded world folder and will only be accessible in that world unless copied manually from one world to another outside of Minecraft. Simply right click on the top of the block in the area between the 3 large squares to open the saved book menu. Click to select a book. Create a chase and place it in the top middle square. Now to create a plate, the player must give the typesetting table a redstone pulse. A button on the front is a great solution. When the table receives a redstone pulse, if the table contains an empty chase, a plate will be created.  To remove the type from a plate and retrieve the empty chase, simply place the plate in the left hand slot then hold sneak and right click the plate and it will be added to the empty chase slot.
+* NEW ITEM: The Chase - This is the empty chase that is used on a typesetting table to make a plate
+* NEW ITEM: Printing Press Plate - This can only be created on a typesetting table and must be placed on a printing press to print a copy of the book it contains.
+* NEW ITEM: Redstone Book - This is a book that is crafted but looks like a signed book. (Also I would like to remind everyone that the book can be renamed on the Anvil). When this special book is place on a bookcase, the bookcase emits a redstone signal.
+* NEW ARMOR ITEM(S): Reading Glasses and other eyewear. When worn on the head, the reading glasses, tinted glasses, or monocle allow the player to read pop up text displays of items displayed on the different blocks in BiblioCraft. Every block in BiblioCraft has text information read out. The player can view the names of books on a bookcase without opening the GUI, as well as see what is on a regular shelf and of what quantity. The player can also see what armor is on an armor stand and what enchantments are on that armor. The display case also has enchantment support for armor and weapons. Labels become combination item frame / signs displaying the name of the item in them. The typesetting table displays the name of the selected book as well as the quantity of blank chases left. The printing press displays the book name of the plate inserted into the press as well as the quantity of ink and quantity of blank books left.  The writing desk displays the name of the open book. The potion shelf shows the name of the potion the player is looking at.
+* NEW ENCHANTMENT: Reading I - This is a rare enchantment that can only be created by enchanting a book. This enchantment then goes on a helmet of choice and grants the player the ability to read text just like the reading glasses, tinted glasses, or monocle.
+*Tweaked Writing Desk - Players can now read and write vanilla Minecraft books on the table.  Also the   last page that was open is saved.  This works across a sever too so one player can open a book to a certain page and another player can view the book already open to that page. The player must be looking at the open book to open the interface. Shift-clicking still removes the book, but the player can look at either stack or the open book to remove the book of their choice.
+*Tweaked Armor Stand - Now any piece of armor can be added / removed / swapped from the players armor inventory to and from the stand by sneak-clicking the stand with an empty hand on the slot of choice. No GUI required, though the GUI is still there. All previous mechanics still exist, this is in addition to the way it worked before.
+*Tweaked Bookcase - Now the player can add and remove books from any slot on the bookcase by looking at that slot. The books are also rendered in whatever slot they are placed in. This makes the combination of the reading glasses and redstone book much fun. However, upon upgrading from a previous version, all current bookcases will appear empty, this is only visual, no books will be lost. The player must only change the inventory of the bookcase to restore rendering of the books. Simply open the GUI, pick up a book and place it back and the books will then show up on the shelf again.
+*Tweaked Potion Shelf - The player can now remove and add potions to any slot on the shelf by looking at that slot. In combination with the reading glasses, finding and obtaining potions quickly without the GUI is much easier.
+*Tweaked Display Case - Emits a redstone signal if a redstone block is placed inside. Also displays enchantment information on weapons and armor if the player is wearing reading glasses.
+*Tweaked Labels - Labels are no longer a solid object and can be walked through. This prevents the use of the label as a step when placed on the front of a chest.
+*Added Hopper support -  All blocks properly support Hoppers and will only allow the correct items to be filtered into the blocks. Though buildcraft doesn't follow the same rules, at least now yet, a combination of buildcraft and hoppers can make for an interesting sorting solution to filter out armor, weapons, books, etc.
+*Restored some armor compatibilities that were lost in the transition to 1.5. - Tested to verify the stand works with Thaumcraft, Ars Magica, Industrial Craft and Forestry.
+
+V1.1.6 - 
+*Fixed a bug that allowed the armor stand to delete the block above the base when being place below another block. The player can no long place the stand unless there is a 2 block opening.
+*Updated to forges updated way of handling armor textures. v1.1.5 will crash with forge v631+, that is fixed and the player must use forge v631+.
+
+V1.1.5 -
+*Fixed a couple rendering bugs that poped up with the new version
+*Implemented proper support for the new TESR Culling feature in forge. This means that with forge, TileEntitySpecialRenderer's, which all 8 blocks in BiblioCraft use, will not be rendered if the player is not facing that block. This should increase performance with heavy use of BiblioCraft by quite a bit.
+*Users of Optifine no longer need to edit the config file and set IsOptifineInstalled to true. I left this in until I can be sure the bug doesn't come back in a future version.
+
+V1.1.4 - 
+*Fixed a crash in SMP where closing the case would casue an Internal exception on the client.
+*Few bug fixes and code cleanup
+
+V1.1.3 -
+*Updated to Minecraft 1.5
+*Removed fake block above desk that prevents other blocks from being placed on the desk.
+
+V1.1.2 -
+* NEW ITEM: The Tape Measure. Simply right click a block to start a measurement, than right click another block to measure the distance, in blocks. Right click without aiming at any blocks to change between 2 modes. The first and default mode will get an absolute measurement, even on angles. The second mod will display up to 3 measurements on each of the 3 axis, no angles.
+* Tweaked Armor Stand - If a player is holding a piece of armor in their hand, they can place it on the armor stand by right clicking the stand with the armor.
+* Tweaked Armor Stand - Player can now shift-click from armor stand to player-armor inventory and from player inventory to player armor inventory if stand is full
+* Added Armor stand compatibility for many more mods. Most mods should work automatically now. DivineRPG seems to be compatible now for example.
+* Updated Shelf - Shelf will now only display the top center piece of wood if a block is above it, otherwise, the top of the shelf is flat. All current shelves will not feature the center piece of wood until the block is updated by placing or changing a block next to the shelf.
+* Slight tweak with Shelf interaction - right clicking on the side or top of a shelf will open the GUI, even if the players hands are full.
+
+V1.1.0 -
+*NEW BLOCK: Added the Desk. Player can place books directly on the desk by right clicking with an accepted book. Right clicking the desk without an accepted book OR if the desk is full will open the GUI. Sneak clicking with an empty hand will pull a book off the Desk.
+* Upgraded Bookcase interactions: Player can place books directly in the Bookcase by right clicking with an accepted book. Right clicking the Bookcase without an accepted book OR if the Bookcase is full will open the GUI. Sneak clicking with an empty hand will pull a book off the Bookcase. Books will add/subtract from the top or bottom shelf depending on what shelf the player is aimed at.
+* Upgraded Display Case Interactions: When the case is open, if the player is holding an item, Right clicking will place the item in the case. If the player has an empty hand and right clicks, the GUI will open. Right clicking while there is an item in the case will cause the item to pop out of the case.
+*Removed all restrictions on display cases. Any item or block may be placed in the case now.
+*Upgraded Tool Rack interactions: Right-clicking the rack with an accepted tool with put the tool on the rack. Right clicking a tool that is on the rack will cause that tool to pop off. Sneak clicking with an empty hand will open the GUI.
+*Upgraded Shelf interactions: Right-clicking the Shelf with any Block or Item will put it on the shelf. Right clicking an item or block that is on the Shelf will cause that item or block to pop off. Sneak clicking with an empty hand will open the GUI.
+*Upgraded Potion Shelf interactions: Right clicking the shelf with an accepted potion will put that potion on the shelf. Right clicking without an accepted potion OR if the shelf is full will open the GUI. Sneak clicking with an empty hand will cause a potion to pop off. Potions are added/subtracted from one of the 3 shelves depending on what shelf the player is aiming at.
+*Tweaked config support. Now keywords entered into the config will check for both in-code item names and in-game display name. This should allow support for adding keywords for items in other languages.
+*Tweaked Labels so items and blocks are scaled slightly larger and fill out the label better.
+*Fixed crashes relating to some items being placed on the shelf, the potion shelf, and the label.
+
+V1.0.2 -
+*Added config support for potion shelves. Now you can enter in keywords to add new items.
+Support for thaumcraft phials and minechem test tubes implemented by default.
+* Fixed a crash when databases from extra bees tried to be added to the label or the potion shelf.
+* When shift clicking an item into the label, the first item now goes to the center slot.
+* Fixed a bug with blocks rotating the wrong direction in fast graphics.
+* Added more default words for various blocks to the config.
+* Added equipped armor to GUI in Armor Stand.
+* Added support for Gregtech and Ars Magics armors to the Armor Stand
+* Added support for Heads to the Armor Stand.
+
+V1.0.0 - First Public Release! Includes 7 different blocks such as Bookcases, Armor stands, item shelves, tool/weapon racks, tool/weapon/valuables display case, potion shelves, and wooden labels.
+
