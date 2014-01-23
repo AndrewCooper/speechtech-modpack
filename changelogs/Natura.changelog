@@ -1,0 +1,138 @@
+2.1.14
+New content:
+- A whole bunch of new nether content
+- Netherrack furnace, hopper, pressure plate, button, lever,
+- Respawn obelisk
+- Heat glass, soul glass
+- Blaze rails and hopper
+Bugfixes:
+- Heatscar spider size should be correct
+- Imphide armor should render correctly
+2.1.13
+- Bad retrogen! No cookie!
+2.1.12
+- Fixed a couple crash bugs
+- Retrogen config option added.
+2.1.11
+- Fixed imp armor rendering weird
+- Fixed Saguaro renderer
+- MFR support removed
+- FMP support added
+- Various other fixes
+2.1.9
+- Changed barley breeding to be in line with new Forge events
+- Cleaned up many missing textures
+- Fixed glowshroom icons doing bad things
+- Added more localizations
+2.1.7
+- Added lang file support
+2.1.6
+- Fixed some weirdness with fences
+- Stair recipes now give proper amounts of blocks
+- Topiary blue and autumn grass has color
+2.1.5
+- Added buttons, stairs, pressure plates, fence gates, and trapdoors for all the wood planks
+- Fixed a bug where slabs broke instantly
+- (1.6.2) Fixed mob textures
+2.1.4
+- Added plank slabs
+2.1.3
+- Custom crafting tables now have the [?] functionality in NEI
+2.1.2
+- Added Topiary grass blocks. Also blue and red versions!
+- Custom crafting tables registered in the ore dictionary as "crafterWood" and "craftingTableWood".
+2.1.1
+- Certain wood types are wood material instead of vine material now
+- Re-added the bedrock ceiling to prevent spawns on top of the nether.
+2.1
+- All wood and soil should be easily harvestable with axes and shovels now
+- Fixed a bug with maple leaves having the wrong icon
+- Added Treecapitator IMC support
+RC2
+- Fixed a bug where saplings wouldn't plant
+- Nerfed nether spiders
+RC1
+- MFR compat added
+- Bloodwood saplings should grow on ceilings now
+- Bonemeal and bone bags have been fixed
+- Ethereal Glowshrooms can be walked through now
+Beta 9
+- BoP and Natura's Nether should play nice now.
+- Spawn eggs can be used in dispensers.
+- Heatscar spiders have been improved.
+Beta 8
+- Fixed end generation
+- Fixed other generation mishaps
+Beta 7
+- All references to TConstruct should be removed
+Beta 6
+- Bluebells have a name, can be turned into blue dye, and grow on grass with bonemeal
+- Willow trees no longer drop darkwood saplings and now grow by rivers
+- Cotton is no longer spammable with bonemeal, but drops more seeds
+- Tigerwood planks now have a recipe
+- Berry bushes can be grown with bonemeal
+- Added proper names to mobs
+- Added spawn eggs
+- Moved Nitro Creepers to Natura
+- Heatscar Spiders can spawn with riders
+- Added Thaumcraft aspects to items
+Beta 4
+- Berry bushes should be harvestable with thaumcraft golems now
+Beta 3
+- Added a whole lot of nether content
+- Added a few rare overworld trees
+2.0.21
+- Fixed infinite bonemeal bag usage
+- Fixed clouds being replaceable
+2.0.20
+- Added a bag of bonemeal
+- Doors now drop an item when they break
+- Overworld Berries now stop at full saturation
+- Nether berries can be eaten up to full saturation
+2.0.19
+- Fixed a bunch of problems with Barley
+2.0.18
+- Fixed cotton giving sulfur on left-click
+2.0.17
+- Fixed a couple bugs with bloodwood branch blocks
+- Fixed a bit of internal weirdness to cooperate with MineFactory Reloaded
+2.0.16
+- Changed cotton to function like berry bushes. No more re-planting, hurrah!
+2.0.15
+- Saguaro cactus can be smelted into cactus greens
+2.0.14
+- Berry bushes no longer place weirdly
+- Berry bushes can be placed on top of fully-grown bushes
+- Redwood saplings now respect their height level
+2.0.13
+- Wild plants now respect buildcraft quarries
+2.0.12
+- Bags of barley no longer crash the game on uncrafting
+2.0.11
+- Doors no longer stack improperly
+- Redwood trees do not punch through bedrock
+- Generation now respects MystCraft void ages
+2.0.10
+- Fixed a bug with certain wood blocks and sounds
+2.0.9
+- Fixed a bug where right-clicking on sheep or cows would crash the game
+- Fixed a bug where nether berry bushes wouldn't use fancy graphics
+2.0.8
+- Fixed missing better berry medley recipe
+2.0.7
+- Added some Forestry and ore dictionary support for berries
+- Barley now works for breeding
+2.0.5
+- Added nether berries. They're just a little bit evil
+- Fixed a bug where overworld berry bushes wouldn't generate
+2.0.4
+- Fixed a bug where the player and villages would spawn on clouds
+2.0.3
+- Fixed a bug where sakura and redwood trees would drop apples
+2.0.2
+- Standardized config file. Generation for each plant can be disabled individually
+- Changed cloud recipes: 9 ash clouds into one charcoal, 4 sulfur clouds into 1 sulfur powder, 4 sulfur powder into 1 gunpowder
+- Fixed a bug where doors would crash the game while mining them.
+2.0.1
+- Fixed a bug with door textures
+- Removed debug "tick" messages
