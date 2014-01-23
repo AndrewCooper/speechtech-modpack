@@ -1,0 +1,48 @@
+Flat Signs v1.4.0 build 15 (for Minecraft v1.6.2)    -by- Myrathi
+------------------------------------------------------------------------------------------
+
+Q. What does this mod do?
+A. It provides new sign functionality allowing signs to be placed flat on the ceiling or
+   the floor (via sneak click). You can also make sponges to edit existing signs.
+
+Q. How do I install it?
+A. You place the ZIP file into the client's (and server's, if SMP) /mods folder.
+
+Q. Do I need anything else to use it?
+A. You'll need Forge 790+
+
+Q. Ok... how do I make the shinies? Err... signs?
+A. You don't need to. Just "place" a normal sign on the ceiling or sneak-place it on the
+   floor. Everything should work as you'd expect.
+
+Q. How do I make sponges?
+A. Throw yellow wool into water or onto the ground when it's raining. They'll soak up the
+   water. SHLOOP! You have a sponge! (they're not very durable, though)
+
+Q. How do I make more durable sponges?
+A. You make them into sponge wipes by crafting a sponge with a piece of cactus green (to
+   give it a rougher side, akin to a steel-wool pad).
+
+Q. How do I edit my sign?
+A. Right-click a sponge or sponge wipe on it.
+
+Q. I want to place a sponge beside a sign without it editing it! How do I do that?
+A. Sneak while placing the sponge. It won't be used up.
+
+==========
+Change Log
+----------
+v1.4.0.15 - Update for MC 1.6.2
+v1.3.2.14 - Fix server-side crash due to missing client-only method. Feh!
+v1.3.1.13 - Fix missing item textures and a typo in the ItemID for Wipes. Oops!
+v1.3.1.10 - Adds sponge wipes (with multiple uses) and a crafting recipe (sponge + cactus green).
+v1.3.0.9 - Adds editing of signs (in-place) using sponges (throw/drop yellow wool into water or rain).
+v1.2.0.8 - Update for MC 1.5.2
+v1.1.0.7 - Update for MC 1.5.1
+v1.0.1.1 - Initial release
+
+==========
+[b]FlatSigns[/b] is licensed under a 'Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License'.
+
+License: http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_GB
+Mod Thread: http://smarturl.it/FlatSigns
