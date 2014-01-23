@@ -1,0 +1,10 @@
+1.8.0
+New     New IC2 uranium fuels usable in Mutator
+New     Sterilised Bottle to store Liquid DNA
+Change  Fossilised combs make coal grains
+Change  Citrus and Mint bees/combs removed
+Change  Sticky resin content of amber comb lowered
+Fix     Grain recipes to stop GregTech moaning
+Fix     GUI Crash on Server
+Fix     Creosote propolises updated for latest RC
+
