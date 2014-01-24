@@ -1,0 +1,297 @@
+3.0.4:
+Spoiler:  
+
+Out of beta now.
+The last of the bugs with menus and other various issues and crashes should now be fixed.
+Refresh button added to the skins menu to make it easier to skin.
+Fixed an issue that caused duplicate entries to appear in the skin menu.
+Automatically defaults the skin to a valid skin location if the one in the config is incorrect.
+Fixed the default skin location to be an actual skin location.
+Fixed the advanced gui so it now should be working correctly again.
+Fixed the repositioning gui fully and returned all the previous functions.
+Fixed the crash when typing /help, and fixed a bug with /direload not working in single player.
+3.0.3BETA:
+Spoiler:  
+
+Started adding in a lang file so the mod can be fully translated, more keys coming in future versions.
+Reloading skins now also reloads the skin.cfg.
+Fixed the mcmod.info file, so now version checking should be accurate.
+3.0.2BETA:
+Spoiler:  
+
+Many many bug fixes.
+A few features not done yet, but should be disabled for now.
+Unskinned version has been removed. A skinned version imitating its plain appearance may return(if someone in the community puts one together).
+2.9.2.2:
+Spoiler:  
+
+Tight up some loose ends on some remaining bugs and oddities with 1.6.4.
+3.0.0BETA:
+Spoiler:  
+
+First 1.7.2 release.
+This is a preview, I know there are lots of bugs, but it should be functional.
+2.9.2.2:
+Spoiler:  
+
+Final update for 1.6.4 before fousing on 1.7.2.
+Added a configuration option to disable shadowing for optifine compatibility.
+Added a configuration option to disable critical hits.
+Added an experimental hook to catch arrow criticals, may or may not work.
+2.9.2.1:
+Spoiler:  
+
+Fixed a bug with frames with trusses mod, and with the transparent block passthrough for mouseovers:
+Mouseovers now behave as expected, and will still give mouseovers if you have your crosshairs between the frame and on a mob, but will not induce lag.
+2.9.2.0:
+Spoiler:  
+
+Critical hits will now pop off an additional text indicator.
+Add colors should now be fixed, and shadow color should now
+render properly on popoffs.
+2.9.1.9:
+Spoiler:  
+
+LAN tested and should be working as intended now.
+Fixed an issue that could of caused popoffs to spam indefinitely.
+2.9.1.8:
+Spoiler:  
+
+Fixed a bug that could cause over flow errors from opengl to flood the console.
+Started implementing lan support, although may still be a little buggy.
+2.9.1.7:
+Spoiler:  
+
+Fixed an issue with buggy drivers that caused this mod to be unusable.
+2.9.1.6:
+Spoiler:  
+
+Added a bugfix for mods that use entities that extend a living entity, but never actually register the entity, leading to a null pointer.
+Fixed a rendering glitch with some mods due to a workaround to prevent name tags from rendering.
+Added a different workaround that should universally disable nameplates but still allows all calls to execute.
+The old mob rendering can be enforced by enabling the alternate rendering method option.
+2.9.1.5:
+Spoiler:  
+
+Added 2 new configuration options:
+
+Alternate Render Method - This uses an alternate hook to render damage indicators, in case you have an incompatible mod installed.
+
+High Compatibility Mod - This will perform additional resets to ensure higher compatibility with mods with leaking set attributes. This will, however, decrease performance, so use it only if you have problems.
+
+Both of these options can be found in the Repositioning gui as well, so you do not even need to modify the config manually.
+All of the gui&#39;s have been tweaked to fix a few lingering bugs from minecraft changes.
+When in any of the guis, the mob or player displayed will follow your cursor around the screen.
+Mouse overs in the advanced gui now work off of real time, and will not fail to fade in and out if you have a high framerate anymore.
+2.9.1.4:
+Spoiler:  
+
+Advanced Configurations cleaned up and now no longer exist inside it&#39;s own folder.
+Entities are now sorted and categorized by the mod they belong to.
+Added Configuration corruption detection and recreation to help prevent crashes related to data corruption.
+Instead of creashing, you now will get a warning in the log, and the configuration is recreated(and consequently, reset unless it had been successfully read since the last time minecraft started).
+Because of the massive changes and improvements, old entity specific configurations will be lost.
+2.9.1.3:
+Spoiler:  
+
+Fix for flicker when portrait vanishes.
+Changed the portrait to hide based on a realtime clock, and not based on frame count. This will make the time the portrait vanishes consistent regardless of fps settings.
+Added config option to hide Boss Health.
+2.9.1.2:
+Spoiler:  
+
+Fix for occational console spam on servers.
+Fix for error on first time late entity registration.
+2.9.1.1:
+Spoiler:  
+
+Code cleanup and some performance tweaks.
+2.9.1.0:
+Spoiler:  
+
+Compatibility fixes with other gui mods.
+Fixed a console spamming problem when on a server.
+Fixed a missing entity texture spamming issue on clients.
+2.9.0.9:
+Spoiler:  
+Finished fixing a bug rendering particles on the wrong player.Included a local copy of the cape so download failures are no longer an issue.
+2.9.0.8:
+Spoiler:  
+Fixed cape not downloading if you have update alerts turned off.Cape downloading will attempt 3 times before giving up to help prevent the cape being white.Fixed particles rendering on the player instead of the actual donator they are looking at.Optimized popoffs, as they no longer have a damage limit, so much code could be removed.Corrected a possible bug with update checking.
+2.9.0.7:
+Spoiler:  
+Fixed some rendering inconsistencies in the unskinned version.Tweaked entity watching to be a bit more efficient.Added server motd processing.
+2.9.0.6:
+Spoiler:  
+Finished server support. Will now communicate with servers that have the mod or plugin(not ready yet).Three settings can be toggled, Mouseovers, popoffs, and potion effects.Servers running the forge mod will force all players to abide by the configuration it has set.Servers will deliver potion effect information to clients if potion effects are enabled on that server.Servers can reload damage indicators setting without actually restarting the server, by using direload from the console. This must be run as server from the physical console.Clients will let the player know when the server tells the client what it should or should not allow.Bukkit server plugin, when finished, will be permissions based. This will allow for area specific toggling of damage indicators features.As Always, running the mod on your server will not prevent people without damage indicators from joining.
+2.9.0.5:
+Spoiler:  
+Fixed skinless skin.Added &amp;amp;quot;enemy&amp;amp;quot; identification. If a mob or player attacks the player, their icon will temporarily be red.If a tamable animal targets you, or any of your pets, their icon will change red.Donators now recieve a Donators cape.Donator particles changed so they are less likely to appear greenish.
+2.9.0.4:
+Spoiler:  
+Fixed the scrollbar in the skin gui from not working correctly.
+2.9.0.3:
+Spoiler:  
+Fixed mouseovers not functioning correctly.GUI crashes and rendering issues fixed.Damage indicators moved back to a tick handler off of the render screen event for tukmc compatibility.Tweaks to the raytracer.Some methods rewritten and restructured for future optional server plugin support.
+2.9.0.0:
+Spoiler:  
+Fixed rendering problems with the chat bubbles mod.Fixed a possible crash on the advanced gui.Fixed Unskinned rendering on the advanced gui.
+2.8.8.0:
+Spoiler:  
+Fix for rendering oddities with various other hud mods.(Like Zan&amp;amp;amp;#39;s Minimap)Reworked the update checking to be a bit smarter.Made Damage Indicators not crash a server if it is attempted to be run there, it simply won&amp;amp;amp;#39;t do anything and inform the player.Called a later rendering call when available, to help trim off unwanted additional rendering.
+[2.8.7.0:
+Spoiler:  
+Fixed an issue with the new raytracer if a glass block is near the end of your view range.Fixed an issue with colors sometimes not saving correctly.Completely reworked the rendering on the popoffs. They have a new look, let me know what you think. This should also give a performance improvement.Reworked how popoffs are registered.
+2.8.6.0:
+Spoiler:  
+Fixed player not rendering and with wrong health information in the repositioning gui.Modified the raytracing to have the ability to pass through non-opaque blocks. Meaning you can target mobs and players through stuff like fences, and glass. This only iterates through at MOST 10 blocks before stopping, to prevent unintentional slowdowns.Added a fallback for strangely registered mobs, and will default to villager for positioning and scaling.Removed all references to ResourceLocations, and instead used an alternate method to load the resources. This should fix incompatibilities between versions, and may allow the mod to work in 1.6.1, but needs testing.Fixed the unskinned version from crashing the game.Optimized the color picker image generation code.
+2.8.5.3:
+Spoiler:  
+Fixed more than one potion box displaying from glitching.Fixed sky glitches and font display inconsistencies.
+2.8.5.2:
+Spoiler:  
+Fixed a rendering issue with potion effects.Enforcing Minecraft version 1.6.2 in the mcinfo for easier error handling.
+2.8.5.1:
+Spoiler:  
+Fixed a layering problem with the portrait.
+2.8.5.0:
+Spoiler:  
+Fixed Mobs disappearing in portraits when using optifine.Fixed a possible crash when clicking around in the advanced menu.Removed almost all attribute pushing when rendering, what this means to you is better performance on slower video cards.Fixed particles spawning out of control when a window that pauses the game is open.Gui rendering moved to forges new RenderInGameGuiEvent, so other mods that need to hide all of the ingamegui will also hide the portrait if needed.Donator particles a little more appearant.Particle Rendering moved back to the tesselator as the optifine bug was fixed.
+2.8.4.0:
+Spoiler:  
+Updated mod to support newer forges.Fixed a potential problem that may cause the skin to render multiple times a frame in some situations.Due to a hard drive failure, the code for my mod had to be recovered via deobfuscation, which due to compile time optimizations, may cause unpredictable behavior in some of that code. Although I am fairly sure I fixed the decompiler errors, one or two may remain, as it is impossible for me to notice them all. If you have any problems or weird behavior, please post them.
+2.8.3.0:
+Spoiler:  
+Donater perks added.Players who donate $5 or more will sparkle to other players running damage indicators.Please provide your in game name when donating and a day or so for me to receive and notice the donation. If you would rather not sparkle, just say so in your donation message.Potion effects fixed for ssp.Some balancing previously implemented reimplemented due to server admin concerns. Invisible players or mobs will not trigger the DI portrait to show.Potion Effects Totally disabled for SMP, currently mostly for balancing. There may be a server mod later to change this.
+2.8.2.0:
+Spoiler:  
+More classes cleaned up/removed for client side only.Particles now pop off heads correctly.Update notifications should now be correct.Damage numbers will no longer pop off yourself.
+2.8.1.0:
+Spoiler:  
+Fixed the way damage indicators handles health values, to get the ceiling instead of the floor, which was causing mobs to show 0 health when they really had greater than 0 but less than 1 health.Fixed my custom checkbox control to correctly bind the appropriate texture so now you can tell if the box is checked or not.
+2.8.0.1:
+Spoiler:  
+Fixed Advanced Compatibility Gui from crashing.Removed some dubugging code from the game.Removed more unnecessary classes.
+2.8.0.0:
+Spoiler:  
+1.6.1 Compatibility added.Thanks to the new way entity health is handled, damage indicators is now fully client side. Server no longer needs to have to mod installed.
+2.7.0.1:
+Spoiler:  
+Quick fix for healthbar text colors not working.
+2.7.0:
+Spoiler:  
+Added the ability to set text colors for custom skins. Check the skin.cfg in the included skins to see the new settings.A critical performance bug was fixed, slower computers should see a major difference.Popoff Handling Thread was redesigned so that minecraft will always have priority over it.
+2.6.9:
+Spoiler:  
+Restructured Skin handling to be easy to code with.Fixed some compatibility problems with various hud mods.Added Text ordering to skins. Olds skins will be unaffected, and the new settings can be found in the 3 provided skins.When someone is using a custom name for a mob, that name now appears in italics, as suggested by VorTr3x.
+2.6.8:
+Spoiler:  
+Moved texture loading to occur later, hopefully avoiding invisible inventory bugs.Changed the way textures are loaded to be more reliable and cleaner.Added some compatibility code to isolate my rendering from what occurs before and after.Fixed compatibility issues with GLSL shaders mod.
+2.6.7:
+Spoiler:  
+Turned off caching when scanning for resources, which could error out with older Sun VM versions of Java.Changed the config loading technique to extract the skin config using the same method used for skin textures. This should , I hope, fix this problem on Mac&amp;amp;amp;#39;s.All the portrait rendering rewritten to favor efficiency. Some compatibility code was removed as it caused slow downs and it should no longer be required, so please report bugs.Entity health change monitoring further optimized.The additional packet to communicate max health removed as it caused problems.Max health is now communicated on a per-mob basis, meaning on server sided mods, the same entity type can have different max healths, and still report as expected, also, there is no longer a delay to display changed max health. This max health is suffixed to the end of the original packet, preserving backwards compatibility for servers and clients, while maintaining only a single packet.Particle rendering rewritten to function how I originally intended it to. Now, particles only appear on top of everything if you can actually see that mob, otherwise, it will render normally, meaning blocks that aren&amp;amp;amp;#39;t transparent make the pop off not visible, however, will still appear on the other side of transparent blocks. This feature can be turned off in the config, however, is always on when on a SMP server, and will stay this way(in the future, servers will be able to allow this).Coming Soon:Initial Code rewriting started to support permissions and forced configurations. This will be ready for use soon.New Bukkit version to take advantage of the new max health communication.
+2.6.6:
+Spoiler:  
+Was not publically released. Too many changes and potential bugs.
+2.6.5.1:
+Spoiler:  
+Fix for class not found crash.
+2.6.5:
+Spoiler:  
+Added entity information caching to reduce the occurrence of incorrect entity information being displayed at the time the entity is visible.
+2.6.4:
+Spoiler:  
+Fixed rendering error on mob death when not using a skin.
+2.6,3:
+Spoiler:  
+Fixed flickering world issue when using optifine.Added client server syncing of max health values.Updates sent once a minute to reduce bandwidth utilization.Backwards compatibility left in for servers running the bukkit plugin.Bukkit plugin using this new feature coming soon.
+2.6.2:
+Spoiler:  
+Cleaned up some potential rendering glitches from left over code.Reimplemented older more compatible rendering if optifine is not installed.Added a check for optifine, to manual render particles to avoid render order particle bugs that prevent damage pop offs from being visible if rendering particles the typical way.Added a fallback routine to overcome issues with java versions/launchers causing the skins to not directly be detected.Cleaned up the advanced gui, save button now has more appropriate placement.Added a check so invalid values will default instead of crashing the client.Fixed some gui rendering issues with both skinned and unskinned portrait previews.Added additional rendering resets to encourage higher ui mod compatibility.
+2.6.1:
+Spoiler:  
+Fixed flickering on death that can occur on some systems.Added texture resetting as requested.
+2.6.0:
+Spoiler:  
+Optmizations to particle rendering. Profiling pointed at 75% reduced cpu time per particle, but actual results could vary. This will be apparent only in extreme circumstances, like mods that deal thousands of damage, or /kill.Optimizations to the hud display, and things moved around to ensure optimal performance given the situation. The hud does checks whether is should be shown or not earlier, so unnecessary code isnt run.Added additional class type checks to avoid crashes with mods that register non-EntityLiving entities as if it was a living entity.
+2.5.9:
+Spoiler:  
+Fix for possible invisible texture bugs beside some mods when using MultiMC.Possible fix for glerror spam, caused by java errors thrown by other mods. Please report if they continue.
+2.5.8:
+Spoiler:  
+Fixed HUD going white when you change texture packs in game.Possible fix for people incorrectly loading skin positional information from the skin.cfg.
+2.5.7.1:
+Spoiler:  
+Fixed a possible cause of lag while using the Advanced Gui.Fixed skin.cfg getting deleted after reading a skin installed using the new easier to install method.
+2.5.7:
+Spoiler:  
+Z-Level bug on some graphics cards with gui addressed and should be fixed.Finished File based skin loaded. You no longer have to open the mod zip to add skins, they now can be installed to the &amp;amp;amp;#39;CustomDISkins&amp;amp;amp;#39; directory. Skins can still be loaded from the mod zip like normal and nothing changed internally with how skins are displayed, so dont worry, your custom skins did not break Posted ImageTo use the new skin loading, just extract the new skin to the CustomDISkins folder. You skin should be contained within a folder, like this: /CustomDISkins/MyCustomSkin/ContentsOfSkinHere.fileextension
+2.5.6:
+Spoiler:  
+Fixed skin.cfg getting left behind when extracting.Rendering method changed on popoffs, and are now manually rendered. This fixes some issues caused by water, and mostly fixes the optifine issue.The advanced config now shows the mob preview again, this time without requiring you look at the mob once first. The skinless version of this feature may be buggy.
+2.5.5:
+Spoiler:  
+Fixed duplicate entries in the skin config.Fixed an issue with the config color setting when using 4 byte hex instead of 3.Added the ability to change the popoff colors in game.Added a new skin choice, Minimal, which does not render the mob preview. This was added mostly as an example for custom skinners.Still Unresolved bugs: Optifine causes mobs to render on top of damage pop offs, making damage inflicted hard to see.
+2.5.4.1:
+Spoiler:  
+Fix for MultiMC Issues.
+2.5.4:
+Spoiler:  
+Mob drawing on top of the frame fixed.Optifine related anomalies fixed.Custom Skinning improved.The Skin Config is now more organized.You can now set the order in which skin parts are rendered, those with lower numbers render first. This is to give skinners more control over the layering.
+2.5.3:
+Spoiler:  
+Performance issue identified and resolved.Issues with disappearing background fixed.Many other performance tweaks added.
+2.5.2:
+Spoiler:  
+Updated to 1.5.1.Fixed various rendering issues.Skins now unload thereself from memory when you change skins.Enderdragon is now detected.
+2.5.1
+Spoiler:  
+Text rendering bugs fixed.Many bugs with improper scaling and positioning from skins fixed.Added the first stages of an automatic skin discovery system. Currently, in the mod zip, there is a folder called DITextures, within this folder, you can place folders with complete skins and Damage Indicators will automatically load it into the available skins.Added a skin selection menu. You can get there from the repositioning gui.Repositioning GUI cleaned up and is more straight forward. Added a tooltip as no one seems to know you can drag the portrait anywhere you want.Default, Wow-Like, and No-Skin are the three selections in this release. Hopefully some people will contribute so you can add to this.Fixed Font color change due to improper hex conversion when the ingame gui saved a config.You can no longer target mobs that are invisible.Skins automatically scale to &amp;amp;amp;#39;power of two&amp;amp;amp;#39; textures. What this means is, less white texture bugs, and easier skin creation for artists.
+2.5.0:
+Spoiler:  
+Damage Indicators updated to 1.5.0. Thankfully, I handled my own texture processing, before this update xD.The damage monitoring system switched up a bit to try a new method.
+2.4.8:
+Spoiler:  
+Fix added for the color bleeding bug(pop offs appearing the wrong color).Timeout for player health updates tweaked, while trying to preserve server performance.Fixed a potential issue that could lead some mobs to lost their saved settings on restart.
+2.4.7.1:
+Spoiler:  
+Critical bug in the new mouse over detection fixed.All texture skins are now have &amp;amp;amp;#39;power of two&amp;amp;amp;#39; dimensions. This will most probably fix the remainder of the white texture bugs.
+2.4.7:
+Spoiler:  
+Ray tracing rewritten to fix mod conflicts, and also increased the efficiency and accuracy.Config handling completely rewritten.Saving settings in game using the gui&amp;amp;amp;#39;s is vastly improved, and saving in the advanced gui will only occur if a change would occur.The AdvancedMobSettings folder no longer breaks up mobs into seperate files, they are now all contained within one config file, &amp;amp;amp;#39;CombinedConfig.cfg&amp;amp;amp;#39;. This should also file FileIO errors caused by illegal file system characters in mob names or class paths..Fixed player names of others not displaying on LAN&amp;amp;amp;#39;s.Fixed some outdated code in the unskinned version of the portrait window.Changed the way the portrait detects a mob&amp;amp;amp;#39;s name.If the alternate method returns an untranslated key, a translation is attempted, if no translation exists, the portrait window will trim up the name to look correct and hopefully be an accurate description.Default GUI Size increased to 0.75.A few potential rendering bugs noticed and fixed.
+2.4.6:
+Spoiler:  
+Added the ability to resize the Portrait window in the config or Repositioning GUI.Many rendering bugs fixed.
+2.4.5:
+Spoiler:  
+Added additional illegal character checks on filenames to prevent crashes due to mod mob names using those illegal characters.Added a config setting so you can allow the portrait preview to show with the F3 Debug window showing.
+2.4.4:
+Spoiler:  
+Various optimizations and tweaks.You can now see damage through walls again, however, the default range has been reduced significantly. This will increase performance on low end machines, and prevent popoffs from being annoying.Texture loading is now done via an alternate method. Possible fix for those with the white texture bug, but no guarantees.
+2.4.3:
+Spoiler:  
+Skinning potential extended even further. So Texture packs will have more freedom when designing skins.The Font size of the health bar will rescale based on the size of the healthbar.Added a new skin element, potion box, which encases potion effects and grows as the target gains more potion effects.The mob type icon extended, not not only does it show the aggressive state of the mob, now there is 5 different mob type icons that will be displayed. This will help with mod mobs so you can know which enchantment would be best.The Directories have changed, to a simpler directory for the skin location. This will also gracefully break the no longer supported old texture packs.
+2.4.2
+Spoiler:  
+A couple of potential rendering issues patched up.Ichun&amp;amp;amp;#39;s body part mods should all be compatible now, this includes mob dismemberment and mob amputation. Now longer are additional confusing steps required. If you have issues, be sure to update his mod as well. Newest versions of both tested successfully.
+2.4.1
+Spoiler:  
+Fixed preview rendering incorrectly in the advanced gui.Added one last additional step when a mobs name cannot be retrieved, so that it will appear more readable, and likely, accurate as well.
+2.4.0.1
+Spoiler:  
+Attempted fix for white texture bug. This fix is only a &amp;amp;amp;#39;possible&amp;amp;amp;#39; fix. Please report if the bug continues.
+2.4.0
+Spoiler:  
+Some tweaks added to better predict max hp&amp;amp;amp;#39;s.Skinning support extended.Texture packs can now modify nearly every aspect of the portrait display.
+2.3.9
+Spoiler:  
+Fixed an oversight that caused the integrated server to continue sending health updates while the player had the advanced gui open, which could lead to temporary severe lag once the gui closes as the processing thread catches up.Fixed a problem with millionaire configs not being found due to non UTF-8 characters which lead to continuous config creation, causing severe lag, most notably, when renaming the villagers.Fixed a problem with probing millionaire health information in the advanced gui, and dropped spawning and killing to get the information,as this seemed to cause thread creation, and now it just stores the information when it is noticed in the world.Added more skinning customization. More options will come in future updates. Open the mod zip and and directory:DamageIndicators/Textures is what is needed in texturepacks. DamageIndicators will read the skin.cfg, if the texturepack has one. This will give you greater control over the appearance.
+2.3.8
+Spoiler:  
+IO lag from improperly registered mobs fixed.Incorrect health should now self-correct automatically eventually, and not only on damage, this applies also to stuck potion timers.Initial dimension change leading to a possible temporary improper health information fixed. Threading and memory usage tweaks, now pre-assigns and reuses the same buffer for packet processing.Preemptive checks on if a player has the mod installed, to further optimize server performance, especially on a mixed server(some with, some without the mod).
+2.3.7
+Spoiler:  
+Fixed a rendering bug experienced by some graphics cards rending the model semi-transparent or invisible.
+2.3.6
+Spoiler:  
+A few minor bugs addressed.Fixed entire Gui disappearing when disabling the portrait via the Repositioning Gui.
