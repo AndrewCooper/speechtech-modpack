@@ -1,0 +1,5 @@
+Mechworks 0.1.3
+- Drawbridges now work as an elevator
+- Advanced and Extended drawbridges keep their inventory on harvest
+- Extended drawbridges extend to 64 as they should now
+- Redstone behavior is very similar to pistons on drawbridges now.
