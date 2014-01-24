@@ -1,0 +1,21 @@
+3.0.0:
+3.0.0 works with Forge (recommended) or ModLoader. For detailed instructions on how to install either one, see the installation instructions in the Knowledgebase.
+In-game UI and Web UI completely re-written to be much faster, zoom out further, and have no texture distortions.
+Cave/Indoor mapping now shows large bodies of water at the same depth and a dimmed view of “outside” surface at the same elevation
+The icons for other players are now their Minecraft skin (no longer a generic Steve face)
+Chat is now visible when the In-game Map is open
+New feature for single-player: “Auto-Map” the entire world at your current elevation
+When “Show Caves” is turned off, surface mapping will be done instead of cave mapping when player is underground
+Saved map files now show the chunk grid (if enabled)
+Save Map (both In-game or Web UI) now opens the image using the system’s default viewer for PNG images when complete
+Added support for multiple resource packs at the same time
+Added support for custom blocks, biomes, and dimensions
+Major reductions in how often image files are written to disk.
+Chunk change detection is used to vastly reduce mapping overhead.
+In-game Map UI now honors the user keybinding for: Forward, Back, Left, Right, Open Chat, and Open Inventory
+Control codes are now stripped from the display of named entities (mobs, pets, etc.)
+Changes to JourneyMap’s data file structures. Your map files will be migrated when first connecting to a new world.
+A new “custom” folder is now created in the JourneyMap folder with placeholder icons for custom mobs. These can be replaced with your own icons.
+Webserver port is now checked to see if already in use. If so, port # is increased by 10 and retried.
+Replaced In-game zoom icons
+Removed obsolete “use_custom_texturepack” property from journeyMap.properties
