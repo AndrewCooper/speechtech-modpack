@@ -1,0 +1,66 @@
+Waila 1.4.4b
+Quick bugfix to correct a couple prbs with the original 1.4.4
+
+CHANGELOG
+Empty tanks will not show <ERROR> anymore.
+All microblocks will not be <Empty> anymore.
+
+Waila 1.4.4 is out !
+In this release support for more tanks, a fix for silverfishes (Jaded, I'm looking at you) and fixes for Thermal Expansion new ducts.
+
+CHANGELOG
+[Fix] Thermal Expansion ducts are now showing the liquids and mode they are in (as it was when 1.4.1 came out).
+[Fix] Silverfish blocks are now shown as normal blocks. No more cheating in MagicFarm !
+[Feature] ExtraUtilities drums will display their capacity and amount of fluids.
+[Feature] OpenBlocks tanks will show their current liquid and amount/capacity. This is on a block by block basis as it would be really expensive to gather the complete connected tank.
+[Feature] Railcraft tanks will show their content and capacity.
+
+Waila 1.4.3
+Small update to fix some issues with TE and too early module registration.
+
+CHANGELOG
+[Fix] The modules are now registered in a very late Forge init step, making sure that all other mods are properly registered before reflecting.
+[Fix] IC2 discovery will not throw a stacktrace anymore. This was intended for debugging only.
+[Local] ru_RU has been update.
+
+Waila 1.4.2
+Small update to fix a crash with some mods and add one method to the API.
+
+CHANGELOG 
+Check if raytrace is null. This bug never happened before so it would be nice to have someone suffering from this bug post a list of mods they are using.
+Added a getSide() to the accessor, so Waila can return different strings depending on the side.
+
+Waila 1.4.1 : The industrial update
+Small bugfixes, a working ETB module, a rewrote IC2 module and some optimization. Youpi !
+
+Since IC2 is still a moving target, please include your version of IC2 when you post a bug. This module has been tested against 2_2.0.306-experimental. 
+
+CHANGELOG
+Delayed field casting for ETB to fix some loading problems.
+IC2 has been rewrote from scratch. Shows more stuff and doesn't silently crash on load.
+Data provider lookup is now cached. Should provide a small performance increase.
+IC2 MODULE 
+Shows the max input of machines.
+Shows the consumption.
+Shows the output of generators and storages.
+Shows the max and current storage of all blocks.
+Takes into account all the machine upgrades. The display will be updated according to current IC2 formulas.
+Trade-O-Mat will show what they offer and what they demand.
+
+Waila 1.4.0 : "So much time gone by ?" release
+For everyone who used the nightlies, this is a minor bugfix for P:R module and the enchant screen (why nobody told me it was derping and showing Minecraft as <Unknown> is beyond me).
+
+For all the others, hold to your pants and watch this video !
+
+This is the first major release in a while, and you have not been waiting for nothing !
+
+Have a lot of fun and really hope you enjoy it !
+
+DISCLAMER
+This version IS compatible with v1.3.10 server side ! Grab it !
+
+CHANGELOG
+Too much to list. Check the Waila page on top of this blog
+Fixed the P:R orientation bug when using plates in the E/W orientation.
+Fixed IC2 module to work again
+Netherland translation (Many thanks to @V3lcio).
