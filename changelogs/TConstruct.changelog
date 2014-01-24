@@ -1,0 +1,103 @@
+1.5.2.6
+- Added a name tag recipe
+- Fixed blood drop item behavior
+- Added a config for crafting of endstone
+- Added a config to disable tool log spam
+- Fixed a bug with tool log spam
+- Misc fixes
+1.5.2.4
+- Bronze and aluminum brass names reverted
+- Fixed a bug with the descriptive books crashing
+- Fixed a bug where any item could be placed in the armor gui
+1.5.2.3
+- Default value for bronze alloy changed to 4 ingots (Update your configs)
+- Bronze and Aluminum Brass renamed to align with Thermal Expansion
+- Suppression fixes for iguana tweaks
+1.5.2.2
+- Fix FoV shenanigans
+1.5.2.1
+- All hostile mobs drop miniature red hearts
+- Alternate empty canister recipe
+1.5.2
+- Blood.
+- Blood can be poured into a casting table and then put on a drying rack
+- Slime channels can be made with raw slimeballs
+- Nether version of the Smeltery that can be made with Natura's nether materials
+- Blood channels
+- Blood.
+1.5.1.2
+- Retrofixed battlegear support
+1.5.1.1
+- Fixed battlegear support
+- Fixed a display bug with RF tool durability
+- Cleavers do more damage
+1.5.1
+Important:
+- Drawbridges, igniters, signals, and cable buses were moved to TMechworks
+- Essence extractors were removed
+
+New content:
+- Added a gem cast
+- Emeralds are now meltable
+- Horses melt into glue
+- Pigiron tools
+
+Changes:
+- Aluminum ingots are now registered as "aluminum" and "aluminium" instead of "naturalAluminum"
+- ALL descriptive books updated to reflect changes
+- Tooltips added on blocks that need them
+- New storage block textures
+- Thermal expansion support
+- Extra Utilities support
+- Tools without another ability can throw splash potions
+- Fluids are source versions instead of finite
+
+Bugfixes:
+- Ender items melt at the proper values
+
+1.5.0
+New things:
+- Experimental Adaptive Smeltery config setting. It's quite buggy, off by default
+- Tool parts are meltable
+- SDX, the mining explosive
+- Wooden rails
+- Stone ladders
+
+Changes:
+- Wooden patterns can be used as furnace fuel
+- Repair modifier reworked
+- Wooden armor has recipes
+- Slime islands should be transparent now
+- AE support for multiblocks
+
+Bugfixes:
+- Fix oreDict recipes regarding stone torches
+- Updated battlegear support
+- Added a warning message to crashlogs regarding GregTech or OptiFine
+- (We don't support these mods in any way)
+
+1.4.6
+- Updated to 1.6.4
+- Fixed a crash when a drawbridge is placed in another drawbridge's camo slot.
+- Various drawbridge changes
+- Items can be tossed in the Smeltery from above
+- Metals render properly behind translucent blocks
+- Reduced updates on casting channels
+1.4.5.1
+New Content:
+- Jerky
+- Slime Channels
+- Bounce Pads
+- Battlegear 2 support
+- Initial Mystcraft Support
+
+Changes:
+- MFR support is now a child mod
+- Many config settings for Slime Islands
+- Removed EBXL API
+
+Bugfixes:
+- Knapsacks drop items in the proper place
+- Attacking iron golems with computercraft turtles no longer crashes the game
+- Arrow rendering
+- Landmines no longer duplicate things
