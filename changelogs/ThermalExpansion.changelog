@@ -1,0 +1,119 @@
+3.0.0.2:
+1/2/2014 - Happy New Year!
+
+-Bugfix: Cyclic Assembler is less crashy when given troll recipes designed to crash it. (Who does that?!)
+-Bugfix: Fluiduct filters work for forced injection blocks now.
+-Bugfix: Incredibly rare Itemduct corner case crashes have been resolved.
+-Bugfix: Pulverizer Wool recipe has been fixed.
+-Bugfix: Redstone Furnace should now handle legacy-style items properly.
+-Bugfix: Tinker's Alloy Blend is now properly craftable with dusts.
+
+
+3.0.0.1:
+12/28/2013
+
+Internal build. Optimized a few things.
+
+
+3.0.0.0:
+12/25/2013 - Merry Christmas!
+Okay, so everything has been completely redone here. A normal changelog doesn't suffice.
+
+MJ is no longer supported by Thermal Expansion. The new energy system is Redstone Flux. (RF). 
+Ratio is 10:1 RF:MJ.
+Lots of mods already support Redstone Flux - it is now the most widely adopted energy system in modded Minecraft!
+
+GENERAL
+CoFHCore has had a massive overhaul. Of particular importance,
+
+-The Friend command! Use the following to manage friends:
+
+/cofh friend add/remove/gui
+-The killall command (ops/server console only):
+
+/cofh killall <wildcard>
+
+Capes and Skins are non-functional at this time. They will be restored for Minecraft 1.7.x.
+
+BLOCKS
+Machines:
+-Now only accept RF.
+-Process style has changed; machines no longer "hide" the actively processing item.
+-Lots of new recipes and process options.
+-Major optimizations and reworks.
+
+Redstone Furnace:
+-Formerly the Powered Furnace.
+-Now smelts pulverized ores and dusts for less energy!
+
+Pulverizer:
+-Pulverize Redstone Ore to get Cinnabar, used in the Induction Smelter.
+
+Induction Smelter:
+-Use Cinnabar Crystals along with an ore for an extra boost in production!
+
+Fluid Transposer:
+-Now fills/drains a new type of container introduced with the Forge Fluid system. Try with Portable Tanks!
+
+Energetic Infuser:
+-Charges things that use RF. Does not support EU or MJ.
+
+Dynamos:
+-These replace engines. They generate Redstone flux.
+-Four dynamos: Steam, Magmatic, Compression, Reactant.
+-Nominal output is 80 RF/t.
+
+Cells:
+-Store RF. These are now SIDED input and output.
+-4 levels + Creative.
+
+Strongboxes:
+-Store items securely. You may limit access to just yourself or allow friends.
+-4 levels + Creative.
+-Use cofh friend command to add friends. :)
+
+Tanks:
+-Store fluids. Can be dismantled.
+-4 levels + Creative.
+
+Conduit:
+-Now uses FMP!
+-Major internal reworks to all types of conduits.
+-Wrench a conduit connection to change/disable its mode.
+
+Energy:
+-There are now 3 levels of Redstone Energy Conduit. They accept RF but will convert to MJ on output if necessary.
+-Output Limit is measured per face of a conduit - they are more capable than you may think.
+-Redstone Energy Conduit no longer has modes.
+
+Fluid:
+-Two types of Fluiducts - Opaque and Transparent.
+-A pneumatic servo may be applied for advanced Redstone Control and filter capabilities.
+
+Item:
+-Itemducts are here! These move items and are extremely optimized.
+-Two tiers of Itemducts - Standard and "Impulse" - both available in Opaque and Transparent variants.
+-A pneumatic servo may be applied for advanced Redstone Control and filter capabilities. Filtering is per side on Itemducts.
+
+Tesseracts:
+-The Tesseract is a fair bit more expensive now. It is also far more capable.
+-Tesseracts handle energy, fluids, and items. They only move RF.
+-Tesseracts do not eject to Buildcraft pipes.
+
+ITEMS
+-Lots of new materials and items to support new TE features.
+-Added Bronze (Tinker's Alloy) and Enderium.
+
+Florbs:
+-New thing! It holds fluid! You can throw it. :)
+
+Flux Capacitors:
+-Store RF, can be activated to charge whatever RF-using tool you are holding! (Must remain in hotbar.)
+
+FLUIDS
+-Added Pyrotheum. Like lava, but worse.
+-Added Cryotheum. Like lava, but worse and cold.
+-Added Liquifacted Coal. Burn it in Compression Dynamos.
+
+ENTITIES
+-Added the Blizz. Like a Blaze, but cold. They are jerks.
