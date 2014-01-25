@@ -6,6 +6,46 @@ JVM arguments can be found at end of change log
 A ReadMe.txt file is now included with the config pack for misc info
 
 
+Version 3.5.41 - Jan 22nd 2014
+[list]
+[*]Added Advanced Thaumaturgy
+[*]Added Alchemical Reactions
+[*]Added Dynamic Liquid Tanks 2
+[*]Added Expanded Redstone
+[*]Added Hopper Ducts
+[*]Added Power Boxes
+[*]Added qCraft
+[*]Added QuarryPlus
+[*]Added ReactorCraft
+[*]Added RemoteIO
+[*]Added Denpipes *
+[*]Added Not Enough Keys
+[/list]
+
+* I included configs to support DenPipes_Emerald and DenPipes_Forestry
+
+
+Version 3.5.40 - Jan 20th 2014
+[list]
+[*]Dimensional Doors - Block ID's added
+[*]ExtraTic - Block and Item ID's added
+[*]RotaryCraft - Item ID's added
+[/list]
+
+
+Version 3.5.39 - Jan 18th 2014
+[list]
+[*]OpenPeripherals Restructured..  See Fuzzzie's list for new files
+[*]OpenBlocks - Item ID's added
+[*]OpenPeripheralsCore/Addons - Block and Item ID's changed *
+[*]Steve's Factory Manager - Block ID's added
+[*]Added Mekanism
+[/list]
+
+*  There was a restructuring of block and Item ID names in this release of OpenPeripheralsCore/Addons.
+While I did my best to remap the old ID names/numbers to the new ones, I would strongly suggest checking this before
+loading your world.
+
 Version 3.5.38 - Jan 15th 2014
 [list]
 [*]Factorization - Item ID added
