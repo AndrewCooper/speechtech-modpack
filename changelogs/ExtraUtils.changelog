@@ -1,0 +1,12 @@
+Extra Utilities Version 1.0.2
+- Enderthermic pump will now work in all dimensions by default (you can change this in the config)
+- Increased damage done by exploding ingots to maximum to ensure players cannot survive
+- Change Energy transfer nodes to display energy in terms of RF (should help prevent an overflow problem)
+- Fixed liquids not being filtered
+- Fixed unstable nugget recipe not working
+- Fixed transfer nodes with multiparts transferring back into inventories
+- Fixed Energy nodes checking for TE3 machine connectivity on the wrong side
+- Fixed Energy nodes crashing when there are vastly different energy requirements for different machines
+- Fixed a minor energy transfer node loss/dupe bug 
+- Fixed code to suppress a non-issue error spam in chat logs regarding an unregistered IC2 tile entity
+- Other minor optimisations to transfer pipe code

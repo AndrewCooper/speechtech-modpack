@@ -1,0 +1,309 @@
+1.6.4 Config Changelog
+
+Notes:
+
+JVM arguments can be found at end of change log
+A ReadMe.txt file is now included with the config pack for misc info
+
+
+Version 3.5.41 - Jan 22nd 2014
+[list]
+[*]Added Advanced Thaumaturgy
+[*]Added Alchemical Reactions
+[*]Added Dynamic Liquid Tanks 2
+[*]Added Expanded Redstone
+[*]Added Hopper Ducts
+[*]Added Power Boxes
+[*]Added qCraft
+[*]Added QuarryPlus
+[*]Added ReactorCraft
+[*]Added RemoteIO
+[*]Added Denpipes *
+[*]Added Not Enough Keys
+[/list]
+
+* I included configs to support DenPipes_Emerald and DenPipes_Forestry
+
+
+Version 3.5.40 - Jan 20th 2014
+[list]
+[*]Dimensional Doors - Block ID's added
+[*]ExtraTic - Block and Item ID's added
+[*]RotaryCraft - Item ID's added
+[/list]
+
+
+Version 3.5.39 - Jan 18th 2014
+[list]
+[*]OpenPeripherals Restructured..  See Fuzzzie's list for new files
+[*]OpenBlocks - Item ID's added
+[*]OpenPeripheralsCore/Addons - Block and Item ID's changed *
+[*]Steve's Factory Manager - Block ID's added
+[*]Added Mekanism
+[/list]
+
+*  There was a restructuring of block and Item ID names in this release of OpenPeripheralsCore/Addons.
+While I did my best to remap the old ID names/numbers to the new ones, I would strongly suggest checking this before
+loading your world.
+
+Version 3.5.38 - Jan 15th 2014
+[list]
+[*]Factorization - Item ID added
+[*]Steve's Factory Manager added - Block ID's added
+[*]Did not include new OpenPeripheral mods since they crash at startup (ProjectRed API issue)
+[/list]
+
+
+Version 3.5.37 - Jan 12th 2014
+[list]
+[*]Blood Magic - Block and Item ID's added
+[*]Dartcraft - Mod author changed config structure, Block ID's removed
+[*]Thaumic Tinkerer - Block and Item ID's added
+[*]EE3 - Corrected duplicate block ID conflict with Teleport pipes
+[*]Engineer's Toolbox - Corrected duplicate Item ID conflict with Thaumic Tinkerer
+[/list]
+
+
+Version 3.5.36 - Jan 10th 2014
+[list]
+[*]Removed all UE mod config files
+[*]Rotarycraft - Block and Item ID's added
+[*]Tinkers Construct 1.5.3d2 was NOT added to the configs since it breaks several other mods
+[/list]
+
+
+Version 3.5.35 - Jan 6th 2014
+[list]
+[*]Ars Magic2 - Block and Item ID's added
+[*]Adjusted Ars Magica2 GUI AffinityPositionX and Y per mod authors recommendation
+[*]Updated JVM arguments
+[/list]
+
+
+Version 3.5.34 - Jan 2nd 2014
+[list]
+[*]RotaryCraft - Item ID's added
+[*]Carpentar Blocks - Blocks ID's added
+[*]Thaumic Tinkerer - Block and Item ID's added
+[/list]
+
+
+Version 3.5.33 - Dec 31st 2013
+[list]
+[*]Project Red - Item ID's added
+[*]Rotarycraft - Item ID's added
+[/list]
+
+
+Version 3.5.32 - Dec 28th 2013
+[list]
+[*]Project Red - Block and Item ID's added
+[*]Minefactory Reloaded - Block and Item ID's added
+[*]RotaryCraft - Block and Item ID's added
+[*]added Equivalent Exchange 3 - Block and Item ID's added
+[*]Extra Cells - Block ID's added
+[/list]
+
+
+Version 3.5.31 - Dec 22nd 2013  Note: using Forge .965 for config pack
+[list]
+[*]Ars Magica - Block, Item and Biome ID's added
+[/list]
+
+
+Version 3.5.30 - Dec 18th 2013  See notes below
+[list]
+[*]Blood Magic - Item ID's added
+[/list]
+
+Note:  A couple of changes occurred that may not be listed in the OP due to recent mod changes.
+Treecapitator is version 1.6.4r08 and BspkrsCore is version 5.1
+Rotarycraft and DragonAPI are version 1.6v10h
+
+
+Version 3.5.29 - Dec 16th 2013 Note, if MFFS 3.5.0.255 crashes at startup add UniversalElectricity_Core_v2.3.0.197
+[list]
+[*]added Crafting Suite - Block and Item ID's added
+[*]added Redstone Aresnal - Block and Item ID's added
+[*]Biomes O Plenty - Block and Item ID's added
+[*]Extra Cells - Block ID added
+[*]MFFS - Item ID's added *See note above
+[*]Removed support for Project Bench, Resonant Induction
+[/list]
+
+
+Version 3.5.28 - Dec 14th 2013 Note, pack now supports Forestry 2.3.1.0, must use 1.6 v9 of Rotarycraft
+[list]
+[*]added CompactWindmills - Block and Item ID's added
+[*]added Dimensional Doors - Block, Item, Biome, Entities ID's added
+[*]added ExtraTiC - Block and Item ID's added
+[*]added Plugins For Forestry - Item ID's added
+[*]added GateCopy - Item ID's added
+[*]added Back Tools - no block or item ID's required
+[*]added Agriculture - Block and Item ID's added
+[*]added Xeno's Reliquary - Block and Item ID's added
+[/list]
+
+
+Version 3.5.27 - Dec 12th 2013  *Note, this pack does not include BoP 1.1.3.341
+[list]
+[*]Tinkers Construct - Block ID's added
+[/list]
+
+
+Version 3.5.26 - Dec 10th 2013  *Note, this pack does not include Forestry A-2.3.1.0
+[list]
+[*]Carpenter Blocks - Block ID added
+[*]Natura - Block and Item ID's added (lots of block ID's)
+[*]Thaumic Tinkerer - Item ID added
+[/list]
+
+
+Version 3.5.25 - Dec 8th 2013
+[list]
+[*]Big Reactors - Block ID added
+[*]Railcraft - Block ID added
+[*]Blood Magic - Item ID's added
+[*]Extra Cells - Block ID added
+[*]Project Red - Item ID's added
+[*]Tinker's Construct - Item ID's added
+[*]Advanced Machines - Item ID added
+[/list]
+
+
+Version 3.5.24 - Dec 2nd 2013
+[list]
+[*]Biomes O Plenty - Block and Item ID's added
+[*]Extra Cells - Block ID's added
+[*]Extra utilities - Block ID's added
+[*]Thaumic Tinkerer - Block and Item ID's added
+[*]Buildcraft - Item ID's added
+[/list]
+
+
+Version 3.5.23 - Nov 28th 2013
+[list]
+[*]Blood Magic - Item ID's added
+[*]Dartcraft - Changed Zelda's hud to = false
+[*]MrCrayfish's Furniture Mod - Block and Item ID's added
+[*]Thaumic Tinkerer - Block and Item ID's added
+[*]Tinkers Construct - Block ID's added
+[*]added Big Reactors - Block and Item ID's added
+[*]added Jabba - Block and Item ID's added
+[/list]
+
+
+
+Version 3.5.22 - Nov 23rd 2013  *See notes below
+[list]
+[*]Thaumcraft - Item ID's added
+[/list]
+
+BoP - make sure you remove existing WorldCore-universal-1.6.4-1.1.0.XX.jar from the mods/1.6.4 folder so new version will get created.
+The file you end up should be for BoP .305 is mods/1.6.4/WorldCore-universal-1.6.4-1.1.0.17.jar.  Older versions may cause a crash.
+MrCrayFish's Furniture link to 3.2.5 is still not working.  Configs in this set are for 3.2
+
+
+Version 3.5.21 - Nov 21st 2013
+[list]
+[*]Powerconverters - Block ID added
+[*]Rotarycraft - Block/Item ID's added
+[*]added Mechworks - Block/Item ID's added
+[/list]
+
+Version 3.5.20 - Nov 18th 2013
+[list]
+[*]added Thermal Expansion 3 - Block/Item ID's added
+[*]Biomes O' Plenty - Block/Item ID's added
+[*]Bibliocraft - Item ID's added
+[*]EnderIO - Item ID's added
+[*]Blood Magic - Item ID's added
+[*]PowerConverters - Had to change a block ID to avoid conflict with new BoP ID (BlockSteam)
+[*]added MrCrayfish's Construction - Block and Item ID's added
+[/list]
+
+
+Version 3.5.19 - Nov 16th 2013
+[list]
+[*]Openblocks - Block/Item ID's added
+[*]Tinkers Construct - Several items were removed.
+[*]Corrected value from 3.5.17 update regarding networkID on Barrels mod
+[/list]
+
+
+Version 3.5.18 - Nov 14th 2013
+[list]
+[*]Well this is a first.  No changes
+[/list]
+
+
+Version 3.5.17 - Nov 12th 2013
+[list]
+[*]added Emashercore (part of Gascraft/Engineers Toolbox), Block/Item ID's added, corrected some block values < 256
+[*]Barrels - Corrected networkID to be 245 (has to be < 256 per mod author)
+[*]Blood Magic - Item ID added
+[*]Engineers Toolbox - Block/Item ID's added
+[*]OpenBlocks - Block/Item ID's added, several items renamed.  Tried to match ID's as best as possible
+[*]Twilight Forest - Block/Item ID's added
+[*]IC2 - Item ID added
+[/list]
+
+
+Version 3.5.16 - Nov 10th 2013
+[list]
+[*]added GasCraft - Block/Item ID's added
+[*]added Engineers Toolbox - Block/Item ID's added (uses offset for ID's)
+[*]BloodCraft - Block/Item ID's added
+[*]CarpenterBLocks - Block ID's added
+[*]ExtraCells - Block ID's added
+[*]Factorization - Block ID's added, see my post regarding this config dated 11/10/13
+[*]OpenBlocks - Block ID's added
+[*]Thaumcraft - Block ID's added
+[*]Tinkers Construct - Block/Item ID's added
+[*]Galacticraft - Block ID's added
+[/list]
+
+
+Version 3.5.15 - Nov 6th 2013
+[list]
+[*]RedLogic - Block ID's added
+[*]OpenBlocks - Block ID's added
+[/list]
+
+
+Version 3.5.14 - Nov 3rd 2013
+[list]
+[*]Tinkers Construct - Block ID's added
+[*]Dartcraft - Item ID's added
+[*]Redlogic - Block ID's added,
+[*]OpenBlocks - Block/Item ID's added
+[*]added BiblioWoods Natura - Block/Item ID's added
+[/list]
+
+
+
+----------------------------------------------------------
+
+JVM Arguments  (Make sure to catch entire line)
+
+
+Server/Minecraft Launcher
+
+-Xms2048m -Xmx2048m -XX:PermSize=256m -XX:NewRatio=3 -XX:SurvivorRatio=3 -XX:TargetSurvivorRatio=80 -XX:MaxTenuringThreshold=8 -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:MaxGCPauseMillis=10 -XX:GCPauseIntervalMillis=50 -XX:MaxGCMinorPauseMillis=7 -XX:+ExplicitGCInvokesConcurrent -XX:+UseCMSInitiatingOccupancyOnly -XX:CMSInitiatingOccupancyFraction=60 -XX:+BindGCTaskThreadsToCPUs -Xnoclassgc
+
+
+Setting up:
+Copy and paste the above arguments into the .bat/.sh file you use to start your server.
+Adjust Xms and Xmx to your desired RAM amount leaving at least 1GB open for PermGen and CodeCache
+*note:setting the Heap above 4GB may cause issues with garbage collection
+
+MultiMC5
+
+-XX:NewRatio=3 -XX:SurvivorRatio=3 -XX:TargetSurvivorRatio=80 -XX:MaxTenuringThreshold=8 -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:MaxGCPauseMillis=10 -XX:GCPauseIntervalMillis=50 -XX:MaxGCMinorPauseMillis=7 -XX:+ExplicitGCInvokesConcurrent -XX:+UseCMSInitiatingOccupancyOnly -XX:CMSInitiatingOccupancyFraction=60 -XX:+BindGCTaskThreadsToCPUs -Xnoclassgc
+
+
+Setting up:
+Click the Icon with the screwdriver and computer.
+Select the tab that says Java
+Set Minimum memory allocation to 2048, maximum memory allocation to 2048, and permgen to 256.
+Copy the arguments above and paste them into JVM arguments

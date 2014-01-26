@@ -1,0 +1,149 @@
+Jan 13, 2014
+
+Fix crash replacing part with stone tools enabled
+7868e947eb Browse code 
+iguanaman authored 11 days ago
+
+Removed references to electric modifier
+bf99c7ad1f Browse code 
+iguanaman authored 11 days ago
+
+Possible fix for diamond ore harvest level
+d392b6aa33 Browse code 
+iguanaman authored 11 days ago
+
+Added clay bucket textures for glue and pigiron
+5ff6658974 Browse code 
+iguanaman authored 11 days ago
+Dec 21, 2013
+
+Clean up
+33bf0f4cf9 Browse code 
+iguanaman authored a month ago
+Dec 20, 2013
+
+Suppress TConstruct's "missing tool" logging
+09af652434 Browse code 
+iguanaman authored a month ago
+
+Improvements to skull tooltip
+5afd8fdb6d Browse code 
+iguanaman authored a month ago
+Dec 19, 2013
+
+Fixed certain hammers not gaining xp
+0dd3eb97d8 Browse code 
+iguanaman authored a month ago
+
+Corrected pickaxe boost tooltip
+68910aec9f Browse code 
+iguanaman authored a month ago
+
+Corrected skull tooltip
+a611e2bfd9 Browse code 
+iguanaman authored a month ago
+Dec 14, 2013
+
+Changed harvest level of iron bars
+272f078f97 Browse code 
+iguanaman authored a month ago
+
+Increased required boost XP depending on tier
+d7305fb989 Browse code 
+iguanaman authored a month ago
+
+Removed config command
+39f4c1f993 Browse code 
+iguanaman authored a month ago
+
+Simplified the check to add XP on block break …
+f13c56ebde Browse code 
+iguanaman authored a month ago
+Dec 12, 2013
+
+More required XP tweaks
+1dad1c4d4f Browse code 
+iguanaman authored a month ago
+
+Version 1p release
+4dd40d42b6 Browse code 
+iguanaman authored a month ago
+
+Turned pickaxe boosting with XP on by default
+590e161143 Browse code 
+iguanaman authored a month ago
+
+More tweaks to required XP
+730009b8f1 Browse code 
+iguanaman authored a month ago
+
+Removed mod loader reference
+090e4c6ba8 Browse code 
+iguanaman authored a month ago
+
+Tweaked required XP once more
+122a67fbc8 Browse code 
+iguanaman authored a month ago
+
+Added more detection for modded stone
+b330e305b8 Browse code 
+iguanaman authored a month ago
+
+Removed mod loader reference
+405b2f0bcc Browse code 
+iguanaman authored a month ago
+
+Fix crash relating to pattern tooltips …
+053b66b066 Browse code 
+iguanaman authored a month ago
+
+Fix being unable to craft bows and arrows
+cb0b62e6c1 Browse code 
+iguanaman authored a month ago
+
+Minor refactor
+250a91330c Browse code 
+iguanaman authored a month ago
+Dec 10, 2013
+
+Clean up
+01e2b0b788 Browse code 
+iguanaman authored a month ago
+
+Removed easter egg items
+2ba6fd2b6c Browse code 
+iguanaman authored a month ago
+
+Added tooltip to parts if part replacement is on
+8cc35c1aa3 Browse code 
+iguanaman authored a month ago
+
+Made leveling sound play when pick levels up
+f44ce8011d Browse code 
+iguanaman authored a month ago
+Dec 09, 2013
+
+Allowed writable/thaumic parts to be replaced …
+7ebee15d1e Browse code 
+iguanaman authored 2 months ago
+
+Cannot replace tool part with the same part
+b70e1f46e0 Browse code 
+iguanaman authored 2 months ago
+
+Enabled paper fletchings
+4b8a71505f Browse code 
+iguanaman authored 2 months ago
+
+Random tooltip stuff
+da93c83639 Browse code 
+iguanaman authored 2 months ago
+
+Bring back extra modifiers for paper and thaumium …
+b8fc2ec0bd Browse code 
+iguanaman authored 2 months ago
+Dec 07, 2013
+
+New config category for modifier options
+2c96c21842 Browse code 
+iguanaman authored 2 months ago

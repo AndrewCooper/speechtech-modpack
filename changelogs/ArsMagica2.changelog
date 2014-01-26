@@ -1,0 +1,149 @@
+1.1.1c
+The Dark Nexus now checks isEntityInvulnerable and will not attempt to pull in those entities that return true
+Corrected recipes for epic and legendary mana potions
+Fixed a crash when a mimicked player entity (such as the one from ExtraUtils spikes) kills a mob that would trigger a compendium unlock
+Fixed pick block on ores returning the wrong block
+Added a config option to set the magic XP bar to always visible
+Lowered recipe costs of binding catalysts
+Binding now requires a blue skill point instead of green
+All spawn weights are now configurable
+Removed purple chalk and null magic runes
+Bound items now cause the HUD to show correctly in minimal HUD mode
+Dark nexii correctly give Mana Regen III buffs when over 10% full
+Liquid essence is worth 4x as much power to a nexus
+The occulus no longer obfuscates names of skills you haven't unlocked
+Fixed spell icons on mac/linux machines
+Added worldgen blacklist IMC support
+Sending a message with the key "dwg" and the id of the dimension you want to blacklist will prevent AM2 worldgen from happening in that dimension.
+
+1.1.1b
+Because I am a derp and uploaded the wrong version for 1.1.1.  This is so you can differentiate and ensure you have the correct version.
+Nobody saw that >.>
+1.1.1
+
+
+Fixes:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+FINALLY fixed the crash bug relating to spell icons
+Fixed a crash relating to icons for essences
+Fixed a rare crash with the Charm spell component
+The magic broom now shows its recipe in the Arcane Compendium
+The X/Z keys now properly function for the Arcane Spellbook
+Fixed a bug where the Magician's Workbench would not correctly drop its inventory contents on destruction
+Added entries to the Arcane Compendium for Sigil of the Light, Sigil of Lunar Tides, and Sigil of Packed Earth
+Removed the duplicate sigil crafting recipes
+The sigil of light no longer leaves lights behind when destroyed
+Projectile spells now properly award magical XP again
+Fixed Affiity UI default position in the main HUD
+-To correct this, open your AM2.cfg configuration file and remove the following 2 lines (under the GUI section), then save the file and launch the game normally:
+D:AffinityPositionX=468.0
+D:AffinityPositionY=0.0
+Fixed crash on mouseover of enchanted AM2 armor
+Fixed "Drown" resolving to "Create Water" when making a spell.
+Fixed the Item Frame Watcher having a rare CME crash
+Fixed Moonstone Meteors on MCPC+
+The crafting altar now properly saves its state so that spell crafting can be resumed correctly after world or chunk unloads
+Fixed a few particle positioning issues
+Chiseled Stone Brick now properly shows a recipe in the compendium
+Corrected Magician's Workbench crafting recipe to require white carpet instead of black
+
+New Things/Changes/Rebalances:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Added Mage Posse II Talent
+Zone, Wall, Rain of Fire, Blizzard, Starstrike, and AoE particles now subscribe to the color modifier
+Life Drain no longer works on the undead, and its healing has been lowered.
+Healing Spells now deal (healing * (0.5 + Caster's Life Affinity Depth * 2)) Damage to the undead
+Mana Elemental bolts now slow the player on hard difficulty if they drain more than 100 mana in a single shot.  This makes them move much faster and become much more accurate for a short time.
+Updated all shapes to properly target the Ender Dragon, and other things that inherit from it
+Inscription table UI text boxes for name and search can be right-clicked to clear their text now
+Zone size now changes based on casting mode
+Beam spell mana cost mechanics have been overhauled, they should be much more reasonable now.
+-maintaining a beam is less expensive mana-wise than spamming a projectile
+-The full mana cost is only deducted every 10 ticks, when the beam applies its effect
+-The rest of the ticks, it's a maintain mana cost of 20%
+
+Inter-mod stuffs:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Better Dungeons compatibility added
+Thuamcraft Compatibility *started*
+-Thaumcraft's portable hole can no longer go through Everstone
+-The lectern once again accepts the Thaumonomicon
+-Aspects have been delayed by one update so I could get bug fixes out sooner.  I felt that this was more important.
+
+1.1.0
+There is a ton of things changed; read about them here or here
+1.0.2b
+Fixed a crashing bug with spell projectiles
+Essence refiner now properly accepts wakebloom
+Crafting altar now properly accepts sugarcane
+Added a compendium entry for witchwood saplings and how to make them grow
+Added a compendium entry for the crafting altar under "blocks"
+Fixed "/respec" command
+1.0.2
+Shortened the range on touch spells significantly.
+Compendium enhancements
+it is now more explanatory and fleshed out based on questions from the community
+it supports color coding to highlight important information
+added some missing entries, such as one for spell books
+moved Summon from shapes to components in accordance with a code change
+Talents tree no longer subscribes to secondary tree skill cap...no really
+added /respec command
+corrected healing mana cost
+nerfed life tap
+fixed dark nexus tendril texture
+tweaks to dig to make it subscribe more to block protection
+deficit no longer causes machines to explode, they just become less efficient as deficit builds (consuming more essence) and eventually power down if it gets too high.
+if they power down, once deficit lowers enough (down to 80% of max deficit) they will resume again automatically.
+default maximum is 1000
+mark now overwrites the location of a previous mark without needing to clear it first.  This means one cast instead of two to update your mark location.
+Added darkling spawn egg
+Fixed Darkling models
+witchwood leaves now respect graphics settings
+buckets are no longer lost when putting liquid essence into a tank
+mana potion bundles now correctly return string when fully consumed
+fixed a crashing bug relating to AM ore items and metadata
+shapes, components and modifiers show their required components in the compendium
+maximum size of a spell capped in the inscription table to 16 parts
+fixed an index out of bounds issue with the inscription table writing recipes to books under rare circumstances
+The forge component, when cast on a villager, will smelt them into an emerald
+this can be turned off in config.
+chain spells can no longer target the caster
+increased the spawn rate of wakebloom flowers and enabled their spawn in river-type biomes
+Mana creepers "explode" much more quickly now
+calefactors now double ores, with light power having a small chance to triple ores (but running much more slowly)
+fixed the crashing bug when naming a spell for the first time (pretty sure, still was never able to replicate this issue personally)
+air affinity negative effects can be countered by either sneaking or casting gravity well on yourself
+added witchwood saplings and renewable aum
+spell staves can now have their spell set
+fixed rotations of several held items
+fixed the refiner UI
+corrected keystone forget crash bug
+light mages no longer randomly attack players
+improvements to AI to make it more efficient
+1.0.1
+added config options for biome and dimension ids
+rewrote retrogen engine, should fix crashing bugs
+changed hecate AI to hopefully be less intense on server tick rate
+added/cleaned up several compendium entries
+added a delay in which a minecart can teleport on gold inlay tracks (only works once every 5 seconds)
+fixed (I think) the issue with /help
+fixed a duplication/crash/item loss bug with the air guardian
+fixed a crash bug with the crafting altar creating certain spells
+liquid essence now emits light akin to lit redstone ore
+fixed /clearknownspellparts to properly target other players when specified
+added witchwood slabs, planks, and stairs
+mana batteries can no longer gain deficit (and subsequently explode >.>)
+Fixed water breathing to now accept wakebloom
+added option to pause material cycling when viewing multiblocks in the compendium
+fixed a crash bug with telekinesis in spell books
+fixed the strange transparency bug with the UI that some people were experiencing
+removed some old entries from the compendium that shouldn't be there
+flushed out the compendium a little more
+added additional logging to assist in tracking down other bugs
+Talents tree ignores skill depth locking
+changed the compendium font to be easier to read
+fixed a crash bug with the inscription table
+all shapes, components, and modifiers are known in creative mode, as they should be
+1.0.0
+Initial Release
+

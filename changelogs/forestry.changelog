@@ -1,0 +1,96 @@
+#2.3.1.1
+Bugfix: Merry Bee snow effect no longer has the pink 'HAY U R MISSING TAXTURE!!!1!!1' thing. (CovertJaguar)
+Bugfix: Player inventory updates when clicking with bucket. (CovertJaguar)
+Bugfix: Backpacks should obey inventory restrictions. (CovertJaguar)
+Bugfix: Short Mead no longer crashes. (CovertJaguar)
+Bugfix: Tipsy Bee is not breedable on Jan 1st (CovertJaguar)
+Bugfix: Merry Bees Snow Effect now works and leaves snow on the ground. (CovertJaguar)
+Change: Drones do not carry Pristine/Ignoble traits. This should make the jerks stack better.
+Change: Beealyzer now displays "Pristine/Ignoble Stock" for bees rather than "Natural/Artificial origin". In addition, stock type is not shown for drones.
+Change: Attempt to reduce the number of Chunk Renderers. (CovertJaguar)
+Change: Added Dropper & Dispenser to builder's backpack by default (CovertJaguar)
+Change: Sandstone items added to backpacks (CovertJaguar)
+Change: Silk Touch no longer works on Humus, Bog Earth or Peat.
+
+#2.3.1.0
+Added: Loot chest spawns in Villager homes. You may find (somewhat) useful Forestry items in them!
+Bugfix: Apiarist Backpacks now properly save their contents when flipping pages preventing dupes/missing items.
+Bugfix: Languages other than en_US should now work properly.
+Bugfix: Worktable should now orient correctly (CovertJaguar)
+Bugfix: All Items are now registered with FML, you must install this version or newer before upgrading your world to 1.7. (CovertJaguar)
+Change: Working around Forge problem that prevents the crafting of Forestry's wooden slabs & stairs.
+Change: Railcraft integration for Ethanol has been moved into Railcraft configs. (CovertJaguar)
+API: Adding package-info to API to use the new protection in Forge
+API: Exposing 2 villager IDs and the naturalist chest gen hook key via IForestryConstants.
+
+
+#2.3.0.7
+- New: Clicking on the book in a Worktable will reset the grid. (CovertJaguar)
+- New: Candles can now be dyed in-world.
+- Change: Habitat Locator is being removed; it's broken, probably won't be fixed soon, and buggers up other icons.
+- Change: Added probe button to Escritoire to give the user more control. (CovertJaguar)
+- Change: Fixing derpy progress arrow in squeezer drawing over top of tank contents.
+- Change: Beekeeping Mode's lifespan modifier now being correctly observed.
+- Bugfix: Fixed derpy Escritoire network sync. (CovertJaguar)
+- Bugfix: Fix Fermenter wasting excess production. (Player)
+- Bugfix: Threaded version checker. (CovertJaguar)
+- Bugfix: Various improvements to the Worktable (CovertJaguar)
+- Bugfix: Improve Carpenter and Fermenter interactions with BC Gates by removing ISpecialInventory. (CovertJaguar)
+
+#2.3.0.6
+- Change: Plugin Loader errors are now silent.
+- Bugfix: Removing references to BuildCraft's SlotOutput
+- Bugfix: Biogas Engine fuel usage
+- Change: Apiarist's Pipe updated for revision of BC pipes
+- Change: Fixing power cycles for all machines
+- Change: Engines no longer show negative temperature values.
+- Bugfix: BuildCraft gate triggers have unique names, and should not crash.
+
+#2.3.0.5
+- Bugfix: Typo in config string (CovertJaguar)
+- Bugfix: Changing missing config value defaults to -1 to prevent random interactions (CovertJaguar)
+- Bugfix: Prevents farm blocks from "flashing" before settling on their correct texture (CovertJaguar)
+- Bugfix: Fixed issue with GUI Rendering prorgess bars in the wrong order (CovertJaguar)
+- Bugfix: Changing handling of container inventories on some devices (CovertJaguar)
+- Change: Fixing up particle rendering system to use distance culling and *nix dev paths (Player)
+- Change: Fixed egregious oversight where feature was missing for this time of year. >.>
+
+#2.3.0.4
+- Change: Cut fuel values in 1/4 to align with Railcraft, IndustrialCraft standards. (From CovertJaguar) Config values available.
+- Change: Making Hive spawning depend directly on Biome's temperature/humidity rather than relying on cached values. Should allow hives to spawn correctly with other biome mods such as Highlands.
+- Bugfix: Adding null checks to avoid an NPE in EntityBeeFX
+- Bugfix: Breaking a Farm block causes a block update. This should prevent floating levers and torches.
+- Bugfix: Adding null checks in Letter code to avoid an NPE if the item is spam-right-clicked.
+- Bugfix: Frames are no longer enchantable to prevent misleading enchantments on frames. (They were never checked anyway.)
+- Bugfix: Multifarm Hatch should now respect ISidedInventory
+- Bugfix: Preventing NPEs while listening for OreDictionary registrations that come "too soon"
+- Bugfix: TileHatch should now respect ISidedInventory when outputting items to an adjacent inventory.
+- Added: Squeezer recipes for Natura barley & cotton seeds -> Seed oil at same rate as wheat seeds.
+- Added: Squeezer recipes for Natura berries (Overworld & Nether varieties) -> Fruit Juice at 1/25th rate as Apples
+- API: Adding methods for converting from Minecraft raw temperature/rainfall into EnumTemperature & EnumHumidity
+
+#2.3.0.3
+
+- Bugfix: Correcting lockups that occur when Peat-Fired engines attempt to dump ash into a nearby pipe.
+- Bugfix: Ignoble bees do not die off if their generation count is too low.
+- Bugfix: Analyzer block properly accepts liquid Honey from fluid pipes.
+
+#2.3.0.2
+
+- Bugfix: Adding correct handling of Village MapGenStructure stuff to make Forestry not crash on 1.6.4
+
+#2.3.0.1
+
+- Bugfix: Fixed issue which caused items ejected into BuildCraft pipes to disappear.
+- Bugfix: Fixed a stacking issue which could occur after analyzing bees, saplings and/or butterflies.
+- Bugfix: Fixed hopper interaction on the fermenter.
+- Bugfix: Fixed crafting results slots in carpenter and fabricator not showing products.
+- Bugfix: Fixed a rainmaker crash.
+- Bugfix: Fixed stairs rendering incorrectly when held in hand.
+- Localizations: Several updates by contributors. (See https://github.com/SirSengir/Forestry-Localization/commits/master for details.)
+
+#2.3.0.0
+
+- Updated: Minecraft 1.6.2.
+- Updated: BC API to 4.0.1.
+- Changed: Swarmer bees are gone - in a way. There are now queens of "Ignoble Stock" and "Pristine Stock". Pristine Stock: As before, but cannot be "infected" through mating with other drones. They make up ~ 20 % of the bee population. "Ignoble Stock": These have a low chance to die off. The mortality chance can be reduced via frames. They will never die off in bee houses. Amount of generations lived does not affect the chance to die off anymore.

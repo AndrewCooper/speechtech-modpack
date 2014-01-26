@@ -1,0 +1,9 @@
+1.58
+Fixed a long standing bug where turtles could lose their identify if they travelled too far away
+Fixed use of deprecated code, ensuring mod compatibility with the latest versions of Minecraft Forge, and world compatibility with future versions of Minecraft
+
+1.57
+Ported to Minecraft 1.6.4
+Added two new Treasure Disks: Conway's Game of Life by vilsol and Protector by fredthead
+Fixed a very nasty item duplication bug.
+First upload to CurseForge!

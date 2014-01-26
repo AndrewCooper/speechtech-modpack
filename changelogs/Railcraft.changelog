@@ -1,0 +1,39 @@
+8.3.2.0
+INFO: Forge req bumped to 9.11.1.965 for the Replacable TileEntity Bug fix.
+CHANGE: Energy Detectors now use Tin Plates instead of Tin Ingots.
+CHANGE: Minor tweak to Boiler fuel use code to fix some weird math when using non-standard config settings.
+FIX: Fixed a dupe bug with copying Routing Tables.
+FIX: Catch and handle network sync errors caused by corrupted TileEntities.
+FIX: Feed Station no longer crashes when feeding Wolves.
+FIX: Fixed an infinite loop that could occur if you place certain tracks in odd configurations.
+
+8.3.1.0
+FIX: Gift Cart should no longer render as TNT.
+
+8.3.0.0
+NEW: Add Stone Lamps.
+NEW: Added MultiPart support for Bricks/Cubes/Glass.
+NEW: Add Creosote Block variants of Stairs and Slabs.
+NEW: Tagged a bunch more stuff with Thaumcraft Aspects.
+CHANGE: Reworked Boiler math to eliminate heat-up costs. https://dl.dropboxusercontent.com/u/38558957/Minecraft/Railcraft/boiler_changes.txt
+CHANGE: Unified and standardized all Steam production code in all devices.
+CHANGE: Fuel adjustments: Blaze Rods 800->1000, Coal 3200->1600, Coke 6400->3200, Coke Block 57600->28800 (fixes Short overflow issues with furnaces).
+CHANGE: Reduce Coke Oven cook time: 3000 -> 1800
+CHANGE: Turbine Guage is now a TESR. (Renderer provided by Player)
+CHANGE: You can now specify a side for the Dismount Track to dismount on.
+CHANGE: Reduce chance of Firestone breaking.
+CONFIG: Added option to set the output of the Creosote Torch Recipe.
+CONFIG: Added multiplier for Fuel to Steam Conversion values.
+CONFIG: Move Fluid configs from World Gen to Fluids where are supposed to be.
+FIX: Register all missing Items with FML for 1.7. You MUST install this version or newer before upgrading a world from 1.6->1.7.
+FIX: Add some more error checking and handling to the Routing Logic to prevent possible crashes on malformed syntax.
+FIX: Carts can't collide when dead, fixes some issues with Nether Portals.
+FIX: Various minor performance tweaks to Boilers, Rolling Machines, etc...
+FIX: Fix stack overflows and faulty counting in Train Detector.
+FIX: Firestone heating bonuses are no longer applied to the cooldown process, only heatup. Oops.
+FIX: Firestone Ore, Raw Firestone, etc... are all immune to fire and lava now.
+FIX: Firestone should not randomly vanish anymore.
+FIX: Firestone no longer crashes the Tunnel Bore.
+FIX: Fix lighting on cart contents rendering in dark places.
+FIX: Fixed Tank Cart uncrafting recipe returning wrong items.
+API: IPostConnection was modified somewhat, in a hopefully non-critical manner.
